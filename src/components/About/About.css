@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    background-color: #F9EDE2;   
+}
+
+.contendedor-p{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    text-align: justify;
+    padding: 1rem;   
+    padding-right: 2rem;
+    font-family: 'ITC Avant Garde Gothic Std', sans-serif; 
+}
+
+.h3 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 3rem;
+    text-align: left;      
+    color: #558FA6; 
+    font-family: 'ITC Avant Garde Gothic Std', sans-serif;
+}
+.h3-chero{
+    font-size: 5rem; 
+    text-align: left;      
+    color: #558FA6; 
+    font-family:'Cherolina', sans-serif;
+    font-weight: 800;
+}
+.p{
+  color: #558FA6;
+  margin: 0.5rem;
+}
+.contenedor-img{
+    width: 30%;
+    height: 100%;
+    
+}
+.imagen{      
+    max-width: 90%;
+    max-height: 90%;
+}
