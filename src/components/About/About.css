@@ -1,17 +1,19 @@
 .container {
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
     height: 100%;
     width: 100%;
     padding: 0;
     margin: 0;
-    align-items: center;
     background-color: #F9EDE2;   
 }
 
 .contendedor-p{
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 60%;
     text-align: justify;
     padding: 1rem;   
     padding-right: 2rem;
@@ -33,16 +35,36 @@
     font-family:'Cherolina', sans-serif;
     font-weight: 800;
 }
+
 .p{
     color: #558FA6;
     margin: 0.5rem;
 }
-.contenedor-img{
-    width: 30%;
-    height: 100%;
-    
+.contenedor-imagenes{
+    display: flex;
+    width: 40%;
+    height: 100%;    
+    flex-direction: row;
+    margin: 0;
 }
+
+.contenedor-img{
+       height: 100%;    
+}
+
 .imagen{      
     max-width: 90%;
     max-height: 90%;
+}
+
+.contenedor-logos{
+    flex-direction: column;     
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 0px;   
+}
+
+.logos{
+    max-height: 6rem;
+    max-width: 6rem;
 }
