@@ -6,13 +6,13 @@ import { About } from "../About/About";
 import { Sidebar } from "../Sidebar/Sidebar";
 
 export const AppRoutes = () => {
-  return (
-    <BrowserRouter>
-        <Sidebar/>
-      <PublicRoutes />
-      <WhatsApp />
-      <About />
-      <Footer />
-    </BrowserRouter>
-  );
+    return (
+        <BrowserRouter>
+            <Sidebar/>
+            <PublicRoutes />
+            <WhatsApp />
+            <About />
+            <Footer />
+        </BrowserRouter>
+    );
 };

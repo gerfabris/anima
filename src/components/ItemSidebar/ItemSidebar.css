@@ -76,6 +76,7 @@
     font-weight: bold;
     font-size: 14px;
     padding-bottom: 2px;
+    transition: .3s ease-in-out;
 }
 .linkOpen path {
     fill: #C7E5E5;

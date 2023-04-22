@@ -7,7 +7,7 @@ export const Sidebar = () => {
   const [open, setOpen] = useState(false)
 
   return (
-    <div className={ open ? "sidebarOpen" : "sidebar"}>
+    <nav className={ open ? "sidebarOpen" : "sidebar"}>
       <svg
         className="hamburger"
         onClick={() => setOpen (!open)}
@@ -24,6 +24,6 @@ export const Sidebar = () => {
             <ItemSidebar to={to} text={text} svg={svg} open={open} />
           ))}
       </div>
-    </div>
+    </nav>
   )
 }
