@@ -1,11 +1,12 @@
 import "./About.css";
 import ImagenAbout from "../../assets/About/foto-about.jpg";
+import LogoAi from "../../assets/About/logoai.png";
+import LogoPs from "../../assets/About/logops.png";
 
 export const About = () => {
   return (
     <section id="about">
       <div className="container">
-        <div className="contenedor-title"></div>
         <div className="contendedor-p">
           <h3 className="h3"> Hola! </h3>
           <h3 className="h3 h3-chero"> Soy Cami</h3>
@@ -50,8 +51,14 @@ export const About = () => {
             </p>
           </div>
         </div>
-        <div className="contenedor-img">
-          <img className="imagen" src={ImagenAbout} alt="foto-acerca-de" />
+        <div className="contenedor-imagenes">
+          <div className="contenedor-logos">
+            <img className="logos" src={LogoAi} alt="logo-ilustrator" />
+            <img className="logos" src={LogoPs} alt="logo-photoshop" />
+          </div>
+          <div className="contenedor-img">
+            <img className="imagen" src={ImagenAbout} alt="foto-acerca-de" />
+          </div>
         </div>
       </div>
     </section>
