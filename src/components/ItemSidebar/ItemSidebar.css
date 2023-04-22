@@ -1,0 +1,142 @@
+.normal[aria-current] {
+    position: relative;
+    width: 60px;
+    height: 50px;
+    color: #37819e;
+    background-color: #37819e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 0.3s;
+}
+
+.normal[aria-current] div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.normal[aria-current] path {
+    fill: #023c53;
+}
+
+.normal[aria-current]::after {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 50px;
+    background-color: #023c53;
+    right: 0;
+    top: 0;
+}
+
+.normal[aria-current]:hover::after {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 50px;
+    background-color: #ffff;
+    right: 0;
+    top: 0;
+}
+
+.normal {
+    width: 60px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 0.3s;
+}
+
+.normal div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.normal path {
+    fill: #C7E5E5;
+}
+.normal a:hover path {
+    fill: #ffff;
+}
+
+.linkOpen {
+    height: 50px;
+    display: flex;
+    padding-left: 25px;
+    align-items: center;
+    gap: 15px;
+    transition-duration: 0.3s;
+}
+
+.linkOpen p {
+    color: #C7E5E5;
+    font-weight: bold;
+    font-size: 14px;
+    padding-bottom: 2px;
+}
+.linkOpen path {
+    fill: #C7E5E5;
+}
+
+.linkOpen div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.normal:hover path {
+    fill: #ffff;
+}
+
+.linkOpen[aria-current] {
+    position: relative;
+    height: 50px;
+    padding-left: 25px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    transition-duration: 0.3s;
+    background-color: #37819e;
+}
+
+.linkOpen[aria-current] path {
+    fill: #023c53;
+}
+
+.linkOpen[aria-current]::after {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 50px;
+    background-color: #023c53;
+    right: 0px;
+    top: 0;
+}
+
+.linkOpen[aria-current] div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linkOpen[aria-current] p {
+    color: #023c53;
+    font-weight: bold;
+    font-size: 14px;
+    padding-bottom: 2px;
+}
+
+.linkOpen[aria-current] p::after {
+    display: none;
+}
+
+.linkOpen:hover p {
+    color: #ffff;
+}
+
+.linkOpen:hover path {
+    fill: #ffff;
+}

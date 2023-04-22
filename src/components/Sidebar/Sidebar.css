@@ -1,0 +1,84 @@
+.sidebar {
+  width: 60px;
+  height: 100vh;
+  background-color:  #558FA6/* #282828 */;
+  transition: ease-in-out;
+  transition-duration: 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.sidebar .hamburger {
+  width: 25px;
+  display: block;
+  margin-top: 20px;
+  cursor: pointer;  
+}
+.sidebar .hamburger path {
+  fill: #C7E5E5; 
+}
+.sidebar .hamburger:hover path {
+  fill: #fff; 
+}
+.sidebar .hamburger:hover {
+  width: 25px;
+  display: block;
+  margin-top: 20px;
+  cursor: pointer;
+}
+  
+.sidebar .linksContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  width: 100%;
+}
+  
+.sidebarOpen {
+  width: 200px;
+  height: 100vh;
+  background-color: #558FA6;
+  transition: ease-in-out;
+  transition-duration: 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+  
+.sidebarOpen .linksContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  width: 100%;
+}
+
+.sidebarOpen a {
+  text-decoration: none;
+}
+  
+.sidebarOpen .hamburger {
+  display: block;
+  width: 25px;
+  margin-top: 20px;
+  cursor: pointer;
+  margin-left: 17.5px;
+}
+.sidebarOpen .hamburger path {
+  fill: #C7E5E5; 
+}
+.sidebarOpen .hamburger:hover path {
+  fill: #fff; 
+}
