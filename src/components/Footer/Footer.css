@@ -1,0 +1,39 @@
+.footer-container{
+    height: 15rem;
+    width: 100%;
+    background-color: #558FA6;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    font-family: 'ITC Avant Garde Gothic Std', sans-serif; 
+    font-size: 1.4rem;
+    color: #F9EDE2;    
+}
+p{
+    color: #F9EDE2;
+}
+h4{
+    font-size: 2rem;
+}
+.section-container{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    
+        
+}
+.data-container{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    
+}
+
+.socialmedia-container{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+
