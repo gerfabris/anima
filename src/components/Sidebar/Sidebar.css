@@ -1,7 +1,7 @@
-.sidebar {
+/* .sidebar {
   width: 85px¿;
   height: 100vh;
-  background-color:  #558FA6/* #282828 */;
+  background-color:  #558FA6 #282828 ;
   transition: 0.1s ease-in-out;
   display: flex;
   flex-direction: column;
@@ -12,14 +12,14 @@
   top: 0;
   left: 0;
   z-index: 1000;
-}
+} */
 .sidebar {
   width: 10%;
   min-width: 90px;
   max-width: 100px;
   height: 60%;
   background-color:  #558FA6/* #282828 */;
-  transition: 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -65,7 +65,7 @@
   max-width: 230px;
   height: 60%;
   background-color: #558FA6;
-  transition: 0.1s ease-in-out;
+  transition: all 0.3s ease-in-out;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -83,10 +83,13 @@
   flex-direction: column;
   margin-top: 80px;
   width: 100%;
+  transition: all 0.5s ease-in-out;
+
 }
 
 .sidebarOpen a {
   text-decoration: none;
+  transition: all 0.5s ease-in-out;
 }
   
 .sidebarOpen .hamburger {
@@ -94,7 +97,6 @@
   width: 25px;
   margin-top: 20px;
   cursor: pointer;
-  margin-left: 17.5px;
 }
 .sidebarOpen .hamburger path {
   fill: #C7E5E5; 
@@ -103,3 +105,11 @@
   fill: #fff; 
 }
 
+.display-none{
+  display: none;
+  transition: all .3s ease-in-out;
+}
+
+.appear{
+  transition: all 0.5s ease-in-out;
+}

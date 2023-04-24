@@ -4,10 +4,12 @@ import { Footer } from "../Footer/Footer";
 import { PublicRoutes } from "./PublicRoutes";
 import { About } from "../About/About";
 import { Sidebar } from "../Sidebar/Sidebar";
+import { Navbar } from "../Navbar/Navbar";
 
 export const AppRoutes = () => {
   return (
     <BrowserRouter>
+      <Navbar />
       <Sidebar />
       <PublicRoutes />
       <WhatsApp />
