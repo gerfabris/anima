@@ -1,13 +1,26 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Links } from "../../Data/Links";
 import { ItemSidebar } from "../ItemSidebar/ItemSidebar";
 import './Sidebar.css'
 
 export const Sidebar = () => {
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(true)
+
+  const [scroll, setScroll] = useState(0);
+
+  useEffect(() => {
+      window.addEventListener('scroll', handleScroll);
+      return () => {
+          window.removeEventListener('scroll', handleScroll);
+      }
+  }, []);
+  
+  const handleScroll = () => {
+      setScroll(window.scrollY);
+  }
 
   return (
-    <nav className={ open ? "sidebarOpen" : "sidebar"}>
+    <div className={ `${open ? "sidebarOpen" : "sidebar"} ${scroll > 0 ? 'display-none' : 'appear' }` }>
       <svg
         className="hamburger"
         onClick={() => setOpen (!open)}
@@ -24,6 +37,6 @@ export const Sidebar = () => {
             <ItemSidebar to={to} text={text} svg={svg} open={open} />
           ))}
       </div>
-    </nav>
+    </div>
   )
 }
