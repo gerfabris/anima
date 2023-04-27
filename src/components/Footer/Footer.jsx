@@ -1,16 +1,23 @@
 import "./Footer.css";
 import { NavLink } from "react-router-dom";
-import LogoFooter from "../../assets/Footer/Frame 2.png";
+import LogoFooter from "../../assets/Footer/Frame 4.png";
+import LetrasFooter from "../../assets/Footer/Frame 3.png";
 
 export const Footer = () => {
   return (
     <footer id="footer" className="footer">
       <div className="footer-container">
         <div className="logo-div">
-          <img className="logo-footer" src={LogoFooter} alt="logo footer" />
+          <img
+            className="logo__footer__spin"
+            src={LogoFooter}
+            alt="logo footer"
+          />
+          <img className="logo__footer" src={LetrasFooter} alt="trabajamos" />
         </div>
       </div>
       <div className="footer-container">
+        <div className="footer__container__div"></div>
         <div className="footer__container__div">
           <NavLink>
             <p> Inicio </p>
@@ -46,7 +53,6 @@ export const Footer = () => {
             <p> Whatsapp </p>
           </NavLink>
         </div>
-        <div className="footer__container__div"></div>
       </div>
     </footer>
   );

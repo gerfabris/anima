@@ -53,10 +53,14 @@
     padding: 1rem;
     overflow: hidden;
 }
-.logo-footer{
+.logo__footer__spin{
     max-width: 13rem;
     max-height: 13rem;
     animation: spin 5s linear infinite;
+}
+.logo__footer{
+    max-width: 13rem;
+    max-height: 13rem;
 }
 /* ----- keyframes ------ */
 @keyframes spin {
