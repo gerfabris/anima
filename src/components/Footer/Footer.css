@@ -29,10 +29,21 @@ h4{
     align-items: center;
     padding: 1rem;
 }
+@keyframes spin {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
 .logo-footer{
     max-width: 13rem;
     max-height: 13rem;
+    animation: spin 5s linear infinite;
 }
+
+
 
 .footer-div{
     display: flex;
