@@ -4,12 +4,14 @@ import LogoFooter from "../../assets/Footer/Frame 2.png";
 
 export const Footer = () => {
   return (
-    <footer id="footer">
+    <footer id="footer" className="footer">
       <div className="footer-container">
         <div className="logo-div">
           <img className="logo-footer" src={LogoFooter} alt="logo footer" />
         </div>
-        <div className="footer-div">
+      </div>
+      <div className="footer-container">
+        <div className="footer__container__div">
           <NavLink>
             <p> Inicio </p>
           </NavLink>
@@ -26,16 +28,13 @@ export const Footer = () => {
             <p> Contacto </p>
           </NavLink>
         </div>
-      </div>
-      <div className="footer-container">
-        <div className="empty"></div>
-        <div className="footer-div-2">
+        <div className="footer__container__div">
           <h4> CONTACTO </h4>
           <p> Colonia, Uruguay </p>
           <p> animadgs@gmail.com </p>
           <p> +598 98 510 246 </p>
         </div>
-        <div className="footer-div-2">
+        <div className="footer__container__div">
           <h4> REDES </h4>
           <NavLink>
             <p> Instagram </p>
@@ -47,6 +46,7 @@ export const Footer = () => {
             <p> Whatsapp </p>
           </NavLink>
         </div>
+        <div className="footer__container__div"></div>
       </div>
     </footer>
   );
