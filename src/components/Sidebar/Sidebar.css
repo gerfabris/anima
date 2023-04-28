@@ -32,7 +32,6 @@
   z-index: 1000;
   border-radius: 0 10pt 10pt 0;
 }
-
 .sidebar .hamburger {
   width: 25px;
   display: block;
@@ -51,7 +50,6 @@
   margin-top: 20px;
   cursor: pointer;
 }
-  
 .sidebar .linksContainer {
   display: flex;
   flex-direction: column;
@@ -60,7 +58,6 @@
   justify-content: center;
   align-items: center;
 }
-  
 .sidebarOpen {
   width: 15%;
   min-width: 200px;
