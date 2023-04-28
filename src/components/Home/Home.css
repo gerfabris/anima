@@ -1,6 +1,51 @@
-.container{
-    display: flex;
+section{
     width: 100%;
     height: 100%;
-    background-color: #F9EDE2;
+    max-width: 100vw;
+    display: flex;
+    background-color: #F9EDE2 ;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-family: 'ITC Avant Garde Gothic Std', sans-serif; 
+    font-size: 1.1rem;
 }
+
+.container{    
+        height: 100%;
+        width: 100%;        
+        display: flex;
+        align-items: center;
+        color:#558FA6;    
+}
+
+.imaginDiv{
+    height: 100%;
+    width: 20%;
+}
+
+.homeDiv {
+    height: 100%;
+    width: 40%;    
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    margin: 0;
+}
+
+.title{
+    font-size: 4rem;
+}
+
+.slogan{
+    font-size: 2rem;
+    margin-bottom: 200px;
+}
+
+img {
+    max-width: 700px;
+    max-height: 700px;
+    min-width: 500px;
+    min-height: 500px;    
+}
+
+ 

@@ -9,7 +9,6 @@ export const AppRoutes = () => {
   return (
     <BrowserRouter>
       <Navbar />
-      <Sidebar />
       <PublicRoutes />
       <WhatsApp />
       <Footer />
