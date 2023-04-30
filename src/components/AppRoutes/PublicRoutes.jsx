@@ -2,7 +2,7 @@ import { Navigate, Route, Routes } from "react-router-dom"
 import { About } from "../About/About"
 import { Products } from "../Products/Products"
 import { Contact } from "../Contact/Contact"
-import { Portfolio } from "../Portfolio/Porfolio"
+import { Portfolio } from "../Portfolio/Portfolio"
 import { Home } from "../Home/Home"
 
 export const PublicRoutes = () => {

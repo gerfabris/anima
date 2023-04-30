@@ -9,8 +9,8 @@ export const AppRoutes = () => {
   return (
     <BrowserRouter>
       <Navbar />
-      <Sidebar />
-      <PublicRoutes />
+{/*       <Sidebar />
+ */}      <PublicRoutes />
       <WhatsApp />
       <Footer />
     </BrowserRouter>

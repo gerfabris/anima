@@ -62,7 +62,7 @@
 .logo__footer__spin{
     max-width: 13rem;
     max-height: 13rem;
-    animation: spin 5s linear infinite;
+    animation: spin 7s linear infinite;
     position: absolute;
     margin: auto;
 }
