@@ -1,0 +1,12 @@
+.socialMedia-a div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socialMedia-a path {
+    fill: #023c53;
+}
+.socialMedia-a:hover path {
+    fill: #ffff;
+}

@@ -41,11 +41,9 @@ section{
     margin-bottom: 200px;
 }
 
-img {
+.homeDiv img {
     max-width: 700px;
     max-height: 700px;
     min-width: 500px;
     min-height: 500px;    
 }
-
- 

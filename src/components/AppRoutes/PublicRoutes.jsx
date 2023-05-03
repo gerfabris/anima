@@ -4,12 +4,13 @@ import { Products } from "../Products/Products"
 import { Contact } from "../Contact/Contact"
 import { Portfolio } from "../Portfolio/Portfolio"
 import { Home } from "../Home/Home"
+import Services from "../Products/Serv2"
 
 export const PublicRoutes = () => {
     return (
         <Routes>
             <Route path="/" element={ <Home/> } />
-            <Route path="/products" element={ <Products/> } />
+            <Route path="/products" element={ <Products /> } />
             <Route path="/about" element={ <About/> } />
             <Route path="/portfolio" element={ <Portfolio/> } />
             <Route path="/contact" element={ <Contact/> } />

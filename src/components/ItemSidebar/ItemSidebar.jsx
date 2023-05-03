@@ -3,7 +3,7 @@ import './ItemSidebar.css'
 
 export const ItemSidebar = ({to, svg, text, open}) => {
     return(
-        <NavLink to={to} className={open ? "linkOpen" : "normal"}>
+        <NavLink to={to} className={open ? "linkOpen" : "normal"} >
             <div>
                 {svg}
             </div>

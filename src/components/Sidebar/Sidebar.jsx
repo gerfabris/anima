@@ -34,7 +34,7 @@ export const Sidebar = () => {
       <div className="linksContainer">
         {Links &&
           Links.map (({to, text, svg}) => (
-            <ItemSidebar to={to} text={text} svg={svg} open={open} />
+            <ItemSidebar key={text} to={to} text={text} svg={svg} open={open} />
           ))}
       </div>
     </div>
