@@ -4,7 +4,7 @@ import Ilusracion from "../../assets/Home/Cami.png";
 export const Home = () => {
   return (
     <>
-      <section id="home">
+      <section id="home" className="home">
         <Sidebar />
         <div className="container">
           <div className="imaginDiv"></div>
