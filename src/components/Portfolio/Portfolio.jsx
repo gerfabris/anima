@@ -19,12 +19,42 @@ export const Portfolio = () => {
           className="div__image-track"
           data-percentage={percentage}
         >
-          <img src={Portfolio6} alt="" className="image" draggable="false" />
-          <img src={Portfolio1} alt="" className="image" draggable="false" />
-          <img src={Portfolio3} alt="" className="image" draggable="false" />
-          <img src={Portfolio4} alt="" className="image" draggable="false" />
-          <img src={Portfolio2} alt="" className="image" draggable="false" />
-          <img src={Portfolio5} alt="" className="image" draggable="false" />
+          <img
+            src={Portfolio6}
+            alt="mockup"
+            className="image"
+            draggable="false"
+          />
+          <img
+            src={Portfolio1}
+            alt="mockup"
+            className="image"
+            draggable="false"
+          />
+          <img
+            src={Portfolio3}
+            alt="mockup"
+            className="image"
+            draggable="false"
+          />
+          <img
+            src={Portfolio4}
+            alt="mockup"
+            className="image"
+            draggable="false"
+          />
+          <img
+            src={Portfolio2}
+            alt="mockup"
+            className="image"
+            draggable="false"
+          />
+          <img
+            src={Portfolio5}
+            alt="mockup"
+            className="image"
+            draggable="false"
+          />
         </div>
       </div>
     </section>

@@ -38,29 +38,16 @@ export const Footer = () => {
           </NavLink>
         </div>
         <div className="footer__container__div">
-          <h4> CONTACTO </h4>
           <p> Colonia, Uruguay </p>
           <p> animadgs@gmail.com </p>
           <p> +598 98 510 246 </p>
         </div>
-{/*         <div className="footer__container__div">
-          <h4> REDES </h4>
-          <NavLink>
-            <p> Instagram </p>
-          </NavLink>
-          <NavLink>
-            <p> Facebook </p>
-          </NavLink>
-          <NavLink>
-            <p> Whatsapp </p>
-          </NavLink>
-        </div> */}
         <div className="socialMedia__container">
-        {SocialMedia &&
-          SocialMedia.map (({id, href, alt, svg}) => (
-            <ItemSocialMedia key={id} href={href} alt={alt} svg={svg} />
-          ))}
-      </div>
+          {SocialMedia &&
+            SocialMedia.map(({ id, href, alt, svg }) => (
+              <ItemSocialMedia key={id} href={href} alt={alt} svg={svg} />
+            ))}
+        </div>
       </div>
     </footer>
   );

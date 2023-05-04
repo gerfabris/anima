@@ -49,8 +49,9 @@
     min-width: 50%;
     min-height: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
+    margin-top: 3rem;
     gap: .5em;
 }
 /* ----- logo ------ */
