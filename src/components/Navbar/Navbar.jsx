@@ -65,19 +65,19 @@ const NavbarNormal = () => {
       </div>
       <ul className="menu">
         <li className="menu__li">
-          <Link to="/">Home</Link>
+          <Link to="/">Inicio</Link>
         </li>
         <li className="menu__li">
-          <Link to="/products">Services</Link>
+          <Link to="/about">Acerca de</Link>
         </li>
         <li className="menu__li">
-          <Link to="/contact">Contact</Link>
+          <Link to="/products">Servicios</Link>
         </li>
         <li className="menu__li">
           <Link to="/portfolio">Portfolio</Link>
         </li>
         <li className="menu__li">
-          <Link to="/about">About</Link>
+          <Link to="/contact">Contacto</Link>
         </li>
       </ul>
       <div className="hamburger">
