@@ -25,7 +25,7 @@ export const Footer = () => {
             <p> Inicio </p>
           </NavLink>
           <NavLink>
-            <p> Acerca de </p>
+            <p> Conoceme </p>
           </NavLink>
           <NavLink>
             <p> Servicios </p>
@@ -37,16 +37,17 @@ export const Footer = () => {
             <p> Contacto </p>
           </NavLink>
         </div>
-        <div className="footer__container__div">
-          <p> Colonia, Uruguay </p>
-          <p> animadgs@gmail.com </p>
-          <p> +598 98 510 246 </p>
-        </div>
+        <div className="footer__container__div"></div>
         <div className="socialMedia__container">
-          {SocialMedia &&
-            SocialMedia.map(({ id, href, alt, svg }) => (
-              <ItemSocialMedia key={id} href={href} alt={alt} svg={svg} />
-            ))}
+          <div className="socialMedia__row">
+            {SocialMedia &&
+              SocialMedia.map(({ id, href, alt, svg }) => (
+                <ItemSocialMedia key={id} href={href} alt={alt} svg={svg} />
+              ))}
+          </div>
+          <div className="socialMedia__address">
+            <p> Colonia, Uruguay </p>
+          </div>
         </div>
       </div>
     </footer>

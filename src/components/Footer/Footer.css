@@ -11,7 +11,7 @@
     font-family: 'ITC Avant Garde Gothic Std', sans-serif; 
     font-size: 1.1rem;
     color: #F9EDE2;    
-}
+    }
 /*  ------ containers generales ------------  */
 .footer-container{
     height: 100%;
@@ -25,7 +25,7 @@
 }
 .footer p{
     color: #F9EDE2;
-    margin-top: 10px;
+    margin-top: 10px;    
 }
 
 .footer h4{
@@ -40,8 +40,7 @@
     flex-direction: column;
     justify-content: flex-start;
     flex-wrap: wrap;
-    align-items: center;   
-    padding: 1rem;
+    align-items: center;       
 }
 .socialMedia__container{
     height: 100%;
@@ -49,10 +48,22 @@
     min-width: 50%;
     min-height: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     margin-top: 3rem;
     gap: .5em;
+}
+.socialMedia__row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.socialMedia__address{
+    display: flex;
+    justify-content: center;
 }
 /* ----- logo ------ */
 .logo-div{
@@ -62,7 +73,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    /* padding: 1rem; */
     overflow: hidden;
     position: relative;
     max-width: 13rem;

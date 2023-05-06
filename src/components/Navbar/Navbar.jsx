@@ -34,7 +34,7 @@ const NavbarScroll = () => {
           <Link to="/">Inicio</Link>
         </li>
         <li className="menu__li">
-          <Link to="/about">Acerca de</Link>
+          <Link to="/about">Conoceme</Link>
         </li>
         <li className="menu__li">
           <Link to="/products">Servicios</Link>
@@ -68,7 +68,7 @@ const NavbarNormal = () => {
           <Link to="/">Inicio</Link>
         </li>
         <li className="menu__li">
-          <Link to="/about">Acerca de</Link>
+          <Link to="/about">Conoceme</Link>
         </li>
         <li className="menu__li">
           <Link to="/products">Servicios</Link>
