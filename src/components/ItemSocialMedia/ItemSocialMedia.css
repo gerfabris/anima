@@ -2,8 +2,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    height: 100%;
 }
-
+.socialMedia-a svg{
+    width: 30px;
+    height: 30px;
+    margin-left: .5em;
+    margin-right: .5em;
+}
+.socialMedia-a svg:hover{
+    transform: scale(1.2);
+}
 .socialMedia-a path {
     fill: #F9EDE2;
 }

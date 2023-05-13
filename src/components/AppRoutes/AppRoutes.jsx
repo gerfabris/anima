@@ -2,14 +2,14 @@ import { BrowserRouter } from "react-router-dom";
 import { WhatsApp } from "../WhatsApp/WhatssApp";
 import { Footer } from "../Footer/Footer";
 import { PublicRoutes } from "./PublicRoutes";
-import { NavbarNormal, NavbarScroll } from "../Navbar/Navbar";
-import { usePathname } from "../../hooks/usePathame";
+import { useNavbar } from "../../hooks/useNavbar";
 
 export const AppRoutes = () => {
-  const pathname = usePathname()
+  const NavbarComponent = useNavbar()
+  console.log(NavbarComponent)
   return (
     <BrowserRouter>
-      {pathname === '/' ? <NavbarScroll /> : <NavbarNormal /> }
+      {NavbarComponent}
       <PublicRoutes />
       <WhatsApp />
       <Footer />

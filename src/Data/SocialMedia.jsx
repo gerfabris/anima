@@ -40,56 +40,15 @@ export const SocialMedia = [
     href: "#",
     alt: "#",
     svg: (
-      <svg
-        width="50px"
+      <svg 
+        xmlns="http://www.w3.org/2000/svg"  
+        viewBox="0 0 50 50" 
+        width="50px" 
         height="50px"
-        viewBox="0 0 24 28"
-        xmlns="http://www.w3.org/2000/svg"
       >
-        <g filter="url(#filter0_d_1_2059)">
-          <path
-            fill="#8F8F8F"
-            d="M10 20V12.5H8V9.8H10C10 9.8 10 8.7 10 7.5C10 5.7 11.2 4 13.9 4C15 4 15.8 4.1 15.8 4.1L15.7 6.6C15.7 6.6 14.9 6.6 14 6.6C13 6.6 12.9 7 12.9 7.8C12.9 8.4 12.9 6.5 12.9 9.8H15.8L15.7 12.5H12.9V20H10Z"
-            fill-opacity="0.6"
-          />
-        </g>
-        <defs>
-          <filter
-            id="filter0_d_1_2059"
-            x="-4"
-            y="0"
-            width="32"
-            height="32"
-            filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
-          >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-            <feColorMatrix
-              in="SourceAlpha"
-              type="matrix"
-              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-              result="hardAlpha"
-            />
-            <feOffset dy="4" />
-            <feGaussianBlur stdDeviation="2" />
-            <feComposite in2="hardAlpha" operator="out" />
-            <feColorMatrix
-              type="matrix"
-              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
-            />
-            <feBlend
-              mode="normal"
-              in2="BackgroundImageFix"
-              result="effect1_dropShadow_1_2059"
-            />
-            <feBlend
-              mode="normal"
-              in="SourceGraphic"
-              in2="effect1_dropShadow_1_2059"
-              result="shape"
-            />
-          </filter>
-        </defs>
+        <path 
+          d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M37,19h-2c-2.14,0-3,0.5-3,2 v3h5l-1,5h-4v15h-5V29h-4v-5h4v-3c0-4,2-7,6-7c2.9,0,4,1,4,1V19z"
+        />
       </svg>
     ),
   },

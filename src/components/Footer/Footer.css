@@ -2,17 +2,34 @@
     height: 100%;
     width: 100%;
     min-width: 100vw;
-    min-height: 80vh;
+    min-height: 88vh;
     background-color: #558FA6;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    font-family: 'ITC Avant Garde Gothic Std', sans-serif; 
+    font-size: 1.1rem;
+    color: #e2c7ae;    
+    }
+/*  ------ containers generales ------------  */
+.footer-bigContainer{
     display: flex;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    font-family: 'ITC Avant Garde Gothic Std', sans-serif; 
-    font-size: 1.1rem;
-    color: #F9EDE2;    
-    }
-/*  ------ containers generales ------------  */
+    height: 100%;
+    width: 100%;
+}
+.footer-bigContainer-copyright{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+}
 .footer-container{
     height: 100%;
     width: 50%;
@@ -27,7 +44,13 @@
     color: #F9EDE2;
     margin-top: 10px;    
 }
-
+.footer__container__div__section-p{
+    font-size: .8em
+}
+.footer__container__div__section-p:hover{
+    transform: scale(1.1);
+    color: #023c53;
+}
 .footer h4{
     font-size: 1.7rem;
 }
@@ -56,11 +79,10 @@
 .socialMedia__row{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
-    align-content: center;
     justify-content: center;
 }
-
 .socialMedia__address{
     display: flex;
     justify-content: center;
@@ -91,7 +113,54 @@
 .logo__footer{
     max-width: 13rem;
     max-height: 13rem;
-
+}
+/* ----- copywrith ------ */
+.footer__copyright{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+.footer__copyright-hr{
+    color: #F9EDE2;
+    width: 30%;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    filter: blur(1.5px);
+}
+.footer__copyright-h5{
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+.footer__copyright-h5 span{
+    margin-top: .5em;
+    margin-bottom: .5em;
+    font-size: .8em;
+}
+.footer__copyright-h6{
+    margin-top: .5em;
+    margin-bottom: .5em;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.footer__copyright-span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: .2em;
+}
+.footer__copyright-span svg path {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: .2em;
+    fill: #F9EDE2;
 }
 /* ----- keyframes ------ */
 @keyframes spin {

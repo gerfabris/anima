@@ -21,7 +21,7 @@ const NavbarScroll = () => {
   return (
     <nav id="navbar-scroll" className={scroll > 0 ? "scroll" : ""}>
       <div className="logo">
-        <Link to="/" className="logo__container">
+        <Link to="/contact" className="logo__container">
           <img
             src={scroll > 0 ? logoCream : logoBlue}
             alt="Logo Anima"
