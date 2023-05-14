@@ -2,11 +2,12 @@ import { BrowserRouter } from "react-router-dom";
 import { WhatsApp } from "../WhatsApp/WhatssApp";
 import { Footer } from "../Footer/Footer";
 import { PublicRoutes } from "./PublicRoutes";
-import { useNavbar } from "../../hooks/useNavbar";
+import { useNavbar, useNavbarDos } from "../../hooks/useNavbar";
+
 
 export const AppRoutes = () => {
-  const NavbarComponent = useNavbar()
-  console.log(NavbarComponent)
+  let NavbarComponent = useNavbar()
+  
   return (
     <BrowserRouter>
       {NavbarComponent}
