@@ -70,10 +70,7 @@
     width: 100%;
     max-width: 100vw;
     height: 100%;
-    margin-top: 12%;
-    margin-bottom: 2em;
     background-color: #F9EDE2;
-
 }
 .container__form {
     max-width: 1170px;
@@ -92,7 +89,6 @@
     font-size: 3em;
     margin-bottom: .5em;
     color: #558FA6;
-
 }
 .container__form-logo span {
     color: #222222;

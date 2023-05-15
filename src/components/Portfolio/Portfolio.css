@@ -17,16 +17,24 @@
     min-width: 100%;
     min-height: 70vmin;
 }
+.container__title {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: .5em;
+    color: #558FA6;
+}
+.container__title span {
+    color: #222222;
+}
 .div__image-track{
     display: flex;
     gap: 4vmin;
     position: absolute;
-    left: 50%;
-    top: 50%;
+    left: 30%;
+    top: 65%;
     transform: translate(0%, -50%);
     overflow: hidden;
     cursor: pointer;
-
 }
 .image{
     width: 40vmin;

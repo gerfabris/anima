@@ -4,7 +4,6 @@ import { Footer } from "../Footer/Footer";
 import { PublicRoutes } from "./PublicRoutes";
 import { useNavbar, useNavbarDos } from "../../hooks/useNavbar";
 
-
 export const AppRoutes = () => {
   let NavbarComponent = useNavbar()
   
