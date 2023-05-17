@@ -27,7 +27,7 @@
   justify-content: center;
   position: fixed;
   padding: 20px;
-  top: 10%;
+  top: 8%;
   left: 0;
   z-index: 1000;
   border-radius: 0 10pt 10pt 0;
@@ -72,7 +72,7 @@
   justify-content: center;
   padding: 20px;
   position: fixed;
-  top: 10%;
+  top: 8%;
   left: 0;
   z-index: 1000;
   border-radius: 0 10pt 10pt 0;
