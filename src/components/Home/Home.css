@@ -12,7 +12,6 @@
     font-size: 1.1rem;
     overflow: hidden;
 }
-
 .home .container{    
     height: 100%;
     width: 100vw;
@@ -23,12 +22,10 @@
     color:#558FA6;
     margin-top: 5em;
 }
-
 .home .imaginDiv{
     height: 100%;
     width: 20%;
 }
-
 .home .homeDiv {
     height: 100%;
     width: 40%;    
@@ -36,17 +33,14 @@
     flex-direction: column;  
     justify-content: center;
 }
-
 .title{
     font-size: 4rem;
 }
-
 .slogan{
     width: 80%;
     font-size: 2rem;
     margin-bottom: 200px;
 }
-
 .homeDiv img {
     max-width: 700px;
     max-height: 700px;

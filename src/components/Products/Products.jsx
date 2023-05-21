@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { services } from "../../Data/Services";
+import { services } from "../../Data/DataServices";
 import "./Services.css";
 import { Modal } from "../Modal/Modal";
 
@@ -22,13 +22,13 @@ export const Products = () => {
   };
 
   /* -- Modal -- */
-  const [selectedServiceId, setSelectedServiceId] = useState(null)
+/*   const [selectedServiceId, setSelectedServiceId] = useState(null)
   const handleServiceClick = (serviceId) => {
     setSelectedServiceId(serviceId)
   }
   const handleCloseServiceClick = (serviceId) => {
     setSelectedServiceId(null)
-  }
+  } */
   return (
     <section className="products" id="products">
       <h1 className="container__products-logo">Servi<span>cios</span></h1>
@@ -41,27 +41,29 @@ export const Products = () => {
                 activeIndex === index ? "active" : ""
               } service-card`}
               onClick={() => handleClick(index)}
+              /* style={ {background: `url("${service.image}")` } } */
             >
-              <img
+{/*               <img
                 src={service.image}
                 alt={service.title}
                 className="service-image"
-              />
+              /> */}
               <div className="service-content">
-                <h3>{service.title}</h3>
+                <h3 className="service-card-title">{service.title}</h3>
+                <p className="service-card-description">{service.description}</p>
               </div>
 
-              <button 
+{/*               <button 
                 onClick={() => handleServiceClick(service.id)}
               >
                 Ver más
-              </button>
-              {selectedServiceId === service.id && <Modal 
+              </button> */}
+{/*               {selectedServiceId === service.id && <Modal 
                 closeModal={handleCloseServiceClick}
                 key={service.id}
                 service={service}
               />
-              }
+              } */}
             </div>
           ))}
         </div>
