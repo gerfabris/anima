@@ -20,8 +20,8 @@ export const Footer = () => {
           </Link>
         </div>
         <div className="footer-container">
-          <div className="footer__container__div"></div>
-          <div className="footer__container__div">
+          <div className="footer__container__div footer__container__div-imagine"></div>
+          <div className="footer__container__div footer__container__div-pages ">
             <NavLink to={'/'}>
               <p className="footer__container__div__section-p"> Inicio </p>
             </NavLink>
@@ -38,8 +38,8 @@ export const Footer = () => {
               <p className="footer__container__div__section-p"> Contacto </p>
             </NavLink>
           </div>
-          <div className="footer__container__div"></div>
-          <div className="socialMedia__container">
+          <div className="footer__container__div footer__container__div-imagine"></div>
+          <div className="socialMedia__container ">
             <div className="socialMedia__row">
               {SocialMedia &&
                 SocialMedia.map(({ id, href, alt, svg }) => (

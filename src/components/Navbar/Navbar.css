@@ -181,7 +181,7 @@
 /*  --- nav responsive */
 .nav{
   background: #F9EDE2;
-  width: 100vw;
+  width: 100%;
   height: 60px;
   min-height: 60px;
   display: flex;
@@ -197,7 +197,7 @@
 }
 .navscroll {
   background: #558FA6;
-  width: 100vw;
+  width: 100%;
   height: 60px;
   min-height: 60px;
   display: flex;
@@ -319,7 +319,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #558FA6;
+    background-color: #F9EDE2;
     top: 60px;
     z-index: 999;
     padding: 1em;
@@ -327,6 +327,9 @@
     border-radius: 2pt;
     gap: 2em;
     width: 100%;
+  }
+  .display-none.open .navlink{
+    color: #558FA6;
   }
   .navmenu{
     transition: .6s ease-in-out all;

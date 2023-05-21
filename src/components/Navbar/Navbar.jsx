@@ -118,7 +118,7 @@ const Navbar = () => {
   return (
     <>
       <nav className={scroll > 0 ? "navscroll" : "nav"} >
-        <NavLink to='/contact' className='navlink navlink-logo'>
+        <NavLink to='/contact#contact' className='navlink navlink-logo'>
           <img
               src={scroll > 0 ? logoCream : logoBlue}
               alt="Logo Anima - Estudio Creativo"

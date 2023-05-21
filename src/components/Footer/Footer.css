@@ -170,3 +170,29 @@
         transform: rotate(360deg);
     }
 }
+/* -- media query -- */
+@media screen and (max-width: 900px) {
+    .footer-bigContainer{
+        flex-direction: column;
+    }
+    .footer-container{
+        justify-content: center;
+        align-items: center;
+    }
+    .footer__container__div-imagine{
+        display: none;
+    }
+    .footer__container__div-pages{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+    .socialMedia__container{
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2em;
+        width: 100%;
+    }
+}
