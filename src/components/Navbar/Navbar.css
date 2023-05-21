@@ -183,9 +183,12 @@
   background: #F9EDE2;
   width: 100vw;
   height: 60px;
+  min-height: 60px;
   display: flex;
   justify-content: space-between;
-  padding: .5rem calc((100vw - 1000px) /2) ;
+  align-items: center;
+/*   padding: .5rem calc((100vw - 1000px) /2) ; */
+  padding: 1em;
   transition: background-color 0.3s ease-in-out;
   z-index: 10;
   position: sticky;
@@ -194,17 +197,20 @@
 }
 .navscroll {
   background: #558FA6;
-  height: 60px;
   width: 100vw;
+  height: 60px;
+  min-height: 60px;
   display: flex;
   justify-content: space-between;
-  padding: .5rem calc((100vw - 1000px) /2) ;
+  align-items: center;
+/*   padding: .5rem calc((100vw - 1000px) /2) ; */
+  padding: 1em;
   transition: background-color 0.3s ease-in-out ;
   z-index: 10;
-  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
   position: sticky;
   top: 0;
   left: 0;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
 }
 .navlink{
   color: #fff;
@@ -227,7 +233,7 @@
 .navmenu{
   display: flex;
   align-items: center;
-  margin-right: 2em;
+  margin-right: 3em;
   gap: 2em;
   justify-content: flex-end;
   width: 75%;
@@ -235,16 +241,20 @@
 }
 .navlink-logo{
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   width: 150px;
   height: 100%;
   margin-right: 5em;
   overflow: hidden;
   margin-left: 2em;
+  height: 100%;
+  min-height: 60px;
+  max-height: 60px;
 }
 .nav__image{
   width: 100%;
+
 }
 .display-none{
   display: none;
