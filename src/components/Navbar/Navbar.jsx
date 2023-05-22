@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import logoBlue from "../../assets/logo/logo2 animanuevo@4x-8-blue-.png";
-import logoCream from "../../assets/logo/logo3 animanuevo@4x-8.png";
+import logoBlue from "../../assets/logo/logo-blue.png";
+import logoCream from "../../assets/logo/logo-cream.png";
 import { FaBars } from "react-icons/fa";
 import "./Navbar.css";
 
@@ -19,7 +19,7 @@ const NavbarScroll = () => {
     setScroll(window.scrollY);
   };
   /* --- open menu ---  */
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <nav id="navbar-scroll" className={scroll > 0 ? "scroll" : "navbar"}>
@@ -32,7 +32,11 @@ const NavbarScroll = () => {
           />
         </Link>
       </div>
-      <div className="hamburger" id="toggler" onClick={ () => setIsOpen(!isOpen)}>
+      <div
+        className="hamburger"
+        id="toggler"
+        onClick={() => setIsOpen(!isOpen)}
+      >
         <div className="line"></div>
         <div className="line"></div>
         <div className="line"></div>
@@ -56,7 +60,6 @@ const NavbarScroll = () => {
           </li>
         </ul>
       </div>
-
     </nav>
   );
 };
@@ -95,7 +98,6 @@ const NavbarNormal = () => {
   );
 };
 
-
 const Navbar = () => {
   /* -- Scroll -- */
   const [scroll, setScroll] = useState(0);
@@ -111,40 +113,44 @@ const Navbar = () => {
     setScroll(window.scrollY);
   };
   /* --- open menu --- */
-  const [isOpen, setIsOpen] = useState(false)
-  const toggleMenu = () =>{
-    setIsOpen(!isOpen)
-  }
+  const [isOpen, setIsOpen] = useState(false);
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
   return (
     <>
-      <nav className={scroll > 0 ? "navscroll" : "nav"} >
-        <NavLink to='/contact#contact' className='navlink navlink-logo'>
+      <nav className={scroll > 0 ? "navscroll" : "nav"}>
+        <NavLink to="/contact#contact" className="navlink navlink-logo">
           <img
-              src={scroll > 0 ? logoCream : logoBlue}
-              alt="Logo Anima - Estudio Creativo"
-              className="nav__image"
+            src={scroll > 0 ? logoCream : logoBlue}
+            alt="Logo Anima - Estudio Creativo"
+            className="nav__image"
           />
         </NavLink>
-        <div className={ `${scroll > 0 ? "navmenu" : "display-none"} ${isOpen ? "open" : ""}` } >
-          <NavLink to='/' activeStyle className='navlink'>
+        <div
+          className={`${scroll > 0 ? "navmenu" : "display-none"} ${
+            isOpen ? "open" : ""
+          }`}
+        >
+          <NavLink to="/" activeStyle className="navlink">
             Inicio
           </NavLink>
-          <NavLink to='/about' activeStyle className='navlink'>
+          <NavLink to="/about" activeStyle className="navlink">
             Conoceme
           </NavLink>
-          <NavLink to='/contact' activeStyle className='navlink'>
+          <NavLink to="/contact" activeStyle className="navlink">
             Contacto
           </NavLink>
-          <NavLink to='/portfolio' activeStyle className='navlink'>
+          <NavLink to="/portfolio" activeStyle className="navlink">
             Portfolio
           </NavLink>
         </div>
-        <div className="nav-toggle" onClick={ toggleMenu }>
-          <FaBars className={ scroll > 0 ? 'bars' : 'bars scroll'} />
+        <div className="nav-toggle" onClick={toggleMenu}>
+          <FaBars className={scroll > 0 ? "bars" : "bars scroll"} />
         </div>
       </nav>
     </>
-  )
-}
+  );
+};
 
-export { NavbarScroll, NavbarNormal , Navbar};
+export { NavbarScroll, NavbarNormal, Navbar };

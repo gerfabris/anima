@@ -6,7 +6,7 @@ import LogoPs from "../../assets/About/logops.png";
 export const About = () => {
   return (
     <section id="about">
-      <div className="container">
+      <div className="container-about">
         <div className="contendedor-p">
           <h3 className="h3"> Hola! </h3>
           <h3 className="h3 h3-chero"> Soy Cami</h3>

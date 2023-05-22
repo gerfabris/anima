@@ -1,50 +1,48 @@
 export const dataPorfolio = [
-    {
-        id: 1,
-        title: "Diseño de logotipo y Brandboard",
-        description:
-            "Creamos un logotipo que represente tu marca y refleje tus valores y guía de estilo para tu marca que incluye paleta de colores, tipografía, estilos de imagen y más..",
-        image: "/src/assets/Portfolio/1.jpg",
-        category: '',
-    },
-    {
-        id: 2,
-        title: "Asesoría personalizada de Instagram",
-        description:
-            "Te ayudamos a optimizar tu perfil de Instagram, aumentar tu alcance y mejorar tu presencia en esta red social.",
-        image: "/src/assets/Portfolio/2.png",
-        category: '',
-    },
-    {
-        id: 3,
-        title: "Diseño gráfico de redes para Instagram",
-        description:
-            "Creamos publicaciones para Instagram que atraigan a tu público objetivo y refuercen tu marca.",
-        image: "/src/assets/Portfolio/3.jpg",
-        category: '',
-    },
-    {
-        id: 4,
-        title: "Calendario de contenidos de Instagram",
-        description:
-            "Creamos un calendario de publicaciones para Instagram que te permitirá planificar tu contenido y asegurar que siempre estás comunicando de forma coherente.",
-        image: "/src/assets/Portfolio/4.jpg",
-        category: '',
-    },
-    {
-        id: 5,
-        title: "Pack de manejo de redes para Instagram",
-        description:
-            "Nos encargamos de la gestión completa de tus redes sociales, creando y publicando contenido, interactuando con tu audiencia y midiendo los resultados.",
-        image: "/src/assets/Portfolio/5.jpg",
-        category: '',
-    },
-    {
-        id: 6,
-        title: "Servicios Web",
-        description:
-            "En colaboración con Impulsar Dev Solutions, ofrecemos servicios de desarrollo web a medida para adaptarnos a las necesidades de cada cliente",
-        image: "/src/assets/Portfolio/6.jpg",
-        category: '',
-    },
+  {
+    id: 1,
+    title: "Nutriendo",
+    description:
+      "Creación de logo para Nutriendo, profesionales especialistas en nutrición.",
+    image: "/src/assets/Portfolio/1.jpg",
+    category: "logos",
+  },
+  {
+    id: 2,
+    title: "Plana",
+    description: "Creación de logo para Plana, estudio de ",
+    image: "/src/assets/Portfolio/2.png",
+    category: "logos",
+  },
+  {
+    id: 3,
+    title: "NUDM",
+    description:
+      "Creación de logo para NUDM, curso sobre habitos y estilos de vida.",
+    image: "/src/assets/Portfolio/3.jpg",
+    category: "logos",
+  },
+  {
+    id: 4,
+    title: "Mi Julián",
+    description:
+      "Creación de logo para Mi Julían, tienda de artesanías y regionales.",
+    image: "/src/assets/Portfolio/4.jpg",
+    category: "logos",
+  },
+  {
+    id: 5,
+    title: "El Martillo",
+    description:
+      "Creación de logo para El Martillo, alquiler de cabañas y turismo.",
+    image: "/src/assets/Portfolio/5.jpg",
+    category: "logos",
+  },
+  {
+    id: 6,
+    title: "Shine UY",
+    description: "Creación de logo para Shine UY, tienda de ...",
+    image: "/src/assets/Portfolio/6.jpg",
+    category: "logos",
+  },
 ];
