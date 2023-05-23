@@ -39,15 +39,40 @@ export const SwiperPortfolio = () =>{
                     <p className='cardportfolio-description'>aca parrafo</p>
                 </figcaption>
             </SwiperSlide>
-            <SwiperSlide>
-                <img src="/src/assets/Portfolio/1.jpg" alt="" />
+            <SwiperSlide className='cardportfolio'>
+                <img 
+                    src="/src/assets/Portfolio/1.jpg" 
+                    alt="" 
+                    className='cardportfolio-image'
+                />
+                <figcaption className='cardportfolio-body'>
+                    <h2 className='cardportfolio-title'>Aca titulo</h2>
+                    <p className='cardportfolio-description'>aca parrafo</p>
+                </figcaption>
             </SwiperSlide>
-            <SwiperSlide>
-                <img src="/src/assets/Portfolio/1.jpg" alt="" />
+            <SwiperSlide className='cardportfolio'>
+                <img 
+                    src="/src/assets/Portfolio/1.jpg" 
+                    alt="" 
+                    className='cardportfolio-image'
+                />
+                <figcaption className='cardportfolio-body'>
+                    <h2 className='cardportfolio-title'>Aca titulo</h2>
+                    <p className='cardportfolio-description'>aca parrafo</p>
+                </figcaption>
             </SwiperSlide>
-            <SwiperSlide>
-                <img src="/src/assets/Portfolio/1.jpg" alt="" />
+            <SwiperSlide className='cardportfolio'>
+                <img 
+                    src="/src/assets/Portfolio/1.jpg" 
+                    alt="" 
+                    className='cardportfolio-image'
+                />
+                <figcaption className='cardportfolio-body'>
+                    <h2 className='cardportfolio-title'>Aca titulo</h2>
+                    <p className='cardportfolio-description'>aca parrafo</p>
+                </figcaption>
             </SwiperSlide>
+
         </Swiper>
     )
 }

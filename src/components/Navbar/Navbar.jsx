@@ -135,14 +135,17 @@ const Navbar = () => {
           <NavLink to="/" activeStyle className="navlink">
             Inicio
           </NavLink>
+          <NavLink to="/products" activeStyle className="navlink">
+            Servicios
+          </NavLink>
           <NavLink to="/about" activeStyle className="navlink">
             Conoceme
           </NavLink>
-          <NavLink to="/contact" activeStyle className="navlink">
-            Contacto
-          </NavLink>
           <NavLink to="/portfolio" activeStyle className="navlink">
             Portfolio
+          </NavLink>
+          <NavLink to="/contact" activeStyle className="navlink">
+            Contactame
           </NavLink>
         </div>
         <div className="nav-toggle" onClick={toggleMenu}>

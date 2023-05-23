@@ -91,7 +91,7 @@ export const Links = [
   },
   {
     to: "/contact",
-    text: "Contactanos",
+    text: "Contactame",
     svg: (
       <svg
         width="24"
