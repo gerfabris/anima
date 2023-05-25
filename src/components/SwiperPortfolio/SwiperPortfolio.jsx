@@ -9,7 +9,7 @@ import './SwiperPortfolio.css'
 // import required modules
 import { EffectCoverflow, Pagination } from "swiper";
 
-export const SwiperPortfolio = () =>{
+export const SwiperPortfolio = ( { portfolio } ) =>{
     return(
         <Swiper
             effect={"coverflow"}
@@ -27,52 +27,20 @@ export const SwiperPortfolio = () =>{
             modules={[EffectCoverflow, Pagination]}
             className="mySwiper"
 
-        >
-            <SwiperSlide className='cardportfolio'>
-                <img 
-                    src="/src/assets/Portfolio/1.jpg" 
-                    alt="" 
-                    className='cardportfolio-image'
-                />
-                <figcaption className='cardportfolio-body'>
-                    <h2 className='cardportfolio-title'>Aca titulo</h2>
-                    <p className='cardportfolio-description'>aca parrafo</p>
-                </figcaption>
-            </SwiperSlide>
-            <SwiperSlide className='cardportfolio'>
-                <img 
-                    src="/src/assets/Portfolio/1.jpg" 
-                    alt="" 
-                    className='cardportfolio-image'
-                />
-                <figcaption className='cardportfolio-body'>
-                    <h2 className='cardportfolio-title'>Aca titulo</h2>
-                    <p className='cardportfolio-description'>aca parrafo</p>
-                </figcaption>
-            </SwiperSlide>
-            <SwiperSlide className='cardportfolio'>
-                <img 
-                    src="/src/assets/Portfolio/1.jpg" 
-                    alt="" 
-                    className='cardportfolio-image'
-                />
-                <figcaption className='cardportfolio-body'>
-                    <h2 className='cardportfolio-title'>Aca titulo</h2>
-                    <p className='cardportfolio-description'>aca parrafo</p>
-                </figcaption>
-            </SwiperSlide>
-            <SwiperSlide className='cardportfolio'>
-                <img 
-                    src="/src/assets/Portfolio/1.jpg" 
-                    alt="" 
-                    className='cardportfolio-image'
-                />
-                <figcaption className='cardportfolio-body'>
-                    <h2 className='cardportfolio-title'>Aca titulo</h2>
-                    <p className='cardportfolio-description'>aca parrafo</p>
-                </figcaption>
-            </SwiperSlide>
-
+        >    
+            {portfolio.map( ( itemportfolio ) => 
+                <SwiperSlide className='cardportfolio'>
+                    <img 
+                        src= { itemportfolio.image}
+                        alt="" 
+                        className='cardportfolio-image'
+                    />
+                    <figcaption className='cardportfolio-body'>
+                        <h2 className='cardportfolio-title'> {itemportfolio.title} </h2>
+                        <p className='cardportfolio-description'> {itemportfolio.description} </p>
+                    </figcaption>
+                </SwiperSlide>
+            )}
         </Swiper>
     )
 }

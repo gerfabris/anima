@@ -1,8 +1,13 @@
+import { dataPorfolio } from "../../Data/DataPortfolio";
 import { SwiperPortfolio } from "../SwiperPortfolio/SwiperPortfolio";
 import "./Portfolio.css";
 
 export const Portfolio = () => {
-
+  
+  const portfolioRedes = dataPorfolio.filter(item => item.category === 'redes' )
+  const portfolioLogos = dataPorfolio.filter(item => item.category === 'logos' )
+  const portfolioFacturitas = dataPorfolio.filter(item => item.category === 'facturitas' )
+  
   return (
     <section id="portfolio" className="section__portfolio">
       <h2 className="portfolio__title">Portfo<span>lio</span></h2>
@@ -14,7 +19,7 @@ export const Portfolio = () => {
           <p className="content-p"> Texto de redes sociales</p>
         </div>
         <div className="container-swiper">
-          <SwiperPortfolio/>
+          <SwiperPortfolio portfolio={ portfolioRedes } />
         </div>
       </div>
       <div className="portfolio-container">
@@ -24,7 +29,7 @@ export const Portfolio = () => {
           <p className="content-p"> Texto de logos</p>
         </div>
         <div className="container-swiper">
-          <SwiperPortfolio/>
+        <SwiperPortfolio portfolio={ portfolioLogos } />
         </div>
       </div>
       <div className="portfolio-container">
@@ -34,7 +39,7 @@ export const Portfolio = () => {
           <p className="content-p"> Texto de facturitas </p>
         </div>
         <div className="container-swiper">
-          <SwiperPortfolio/>
+        <SwiperPortfolio portfolio={ portfolioFacturitas } />
         </div>
       </div>
       
