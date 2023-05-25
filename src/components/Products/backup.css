@@ -129,7 +129,7 @@
     position: relative;
     height: 100%;
     transform-style: preserve-3d;
-    transition: trabnsform .5s;
+    transition: transform .5s;
 }
 .service-card:hover .card__inner{
     transform: rotateY(-180deg);

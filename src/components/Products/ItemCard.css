@@ -5,11 +5,12 @@
     transform-style: preserve-3d;
     transition: transform .5s ease-in-out;
 }
-.service-card:hover{
+.service-card:hover{  
     transform: rotateY(-180deg);
 }
+
 .card__front,.card__back{
-    width: 100%;
+    width: 80%;
     height: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -35,8 +36,8 @@
 .card__image-wrapper{
     width: 100%;
     height: 50%;
-    max-width: 6em;
-    max-height: 6em;
+    max-width: 8em;
+    max-height: 8em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,21 +54,36 @@
     transform: rotateY(180deg);
 }
 .card__content{
-    width: 90%;
+    width: 100%;
     height: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
+    margin: 5px;
+}
+
+.card__content-description{ 
+    font-size: 0.7em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.card__content-button{
+    margin: 10px;
+    font-size: 0.7em;
+    color:#fff;
+    background-color: #558FA6;
 }
 .card__back .card__content{
     box-shadow: 0 0 5px rgba(0, 0, 0, .15);
     backdrop-filter: blur(10px);
     height: 90%;
     width: 90%;
-    padding: 2em;
+    padding: 1em;
 }
+
 
 @media screen and (max-width:520px) {
     .service-card{

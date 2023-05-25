@@ -39,6 +39,6 @@ export const services = [
     title: "Servicios Web",
     description:
       "En colaboración con Impulsar Dev Solutions, ofrecemos servicios de desarrollo web a medida para adaptarnos a las necesidades de cada cliente",
-    image: "/src/assets/Servicios/internet (1).png",
+    image: "/src/assets/Servicios/web.png",
   },
 ];
