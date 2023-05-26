@@ -29,7 +29,7 @@ export const ItemCard = ({ service, index, onClick }) => {
         <div className="card__content">
           <p className="card__content-description">{service.description}</p>
           <button className="card__content-button" type="submit">
-            Más info
+            Contratar
           </button>
         </div>
       </div>

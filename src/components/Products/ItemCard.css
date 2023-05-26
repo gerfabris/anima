@@ -1,5 +1,5 @@
 .service-card{
-    width: 60vmin;
+    width: 50vmin;
     height: 70vmin;
     position: relative;
     transform-style: preserve-3d;
@@ -10,7 +10,7 @@
 }
 
 .card__front,.card__back{
-    width: 80%;
+    width: 100%;
     height: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -61,15 +61,12 @@
     align-items: center;
     flex-direction: column;
     text-align: center;
-    margin: 5px;
 }
-
 .card__content-description{ 
     font-size: 0.7em;
     margin-top: 5px;
     margin-bottom: 5px;
 }
-
 .card__content-button{
     margin: 10px;
     font-size: 0.7em;
@@ -79,12 +76,14 @@
 .card__back .card__content{
     box-shadow: 0 0 5px rgba(0, 0, 0, .15);
     backdrop-filter: blur(10px);
-    height: 90%;
-    width: 90%;
+    height: 100%;
+    width: 100%;
     padding: 1em;
+    justify-content: space-between;
 }
-
-
+.card__back .card__content-description{
+    text-align: center;
+}
 @media screen and (max-width:520px) {
     .service-card{
         width: 80vmin;
