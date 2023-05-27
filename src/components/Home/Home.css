@@ -36,14 +36,100 @@
 .title{
     font-size: 4rem;
 }
+.title-span{
+    display: inline-block;
+}
+.title-span:hover{
+    animation: rubberBand 1s;
+}
 .slogan{
     width: 80%;
     font-size: 2rem;
     margin-bottom: 200px;
+    /* effect text slogan */
+    transform: scale(0.94);
+    animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+.slogan-span{
+    display: inline-block;
+    opacity: 0;
+    filter: blur(4px);
+    margin-right: .2em;
 }
 .homeDiv img {
     max-width: 700px;
     max-height: 700px;
     width: 100%;
     height: 100%;
+}
+/* -- instagram -- */
+.container__home-instagram{
+    margin-bottom: 2em;
+}
+.home__instagram{
+    width: 80%;
+    height: 20rem;
+}
+/* -- effects text slogan-- */
+/* -- scale -- */
+@keyframes scale {
+    100% {
+        transform: scale(1);
+    }
+}
+/* -- fade in -- */
+.slogan span:nth-child(1) {
+    animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+.slogan span:nth-child(2) {
+    animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+.slogan span:nth-child(3) {
+    animation: fade-in 0.8s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+.slogan span:nth-child(4) {
+    animation: fade-in 0.8s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+.slogan span:nth-child(5) {
+    animation: fade-in 0.8s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+.slogan span:nth-child(6) {
+    animation: fade-in 0.8s 0.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+.slogan span:nth-child(7) {
+    animation: fade-in 0.8s 0.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+.slogan span:nth-child(8) {
+    animation: fade-in 0.8s 0.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+.slogan span:nth-child(9) {
+    animation: fade-in 0.8s 0.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+/*  */
+@keyframes fade-in {
+    100% {
+        opacity: 1;
+        filter: blur(0);
+    }
+}/* -- rubberBand -- */
+/* animation: rubberBand 1s */
+@keyframes rubberBand {
+    0%{
+        transform: scale3d(1,1,1);
+    }
+    35%{
+        transform: scale3d(1.25,.75,1);
+    }
+    45%{
+        transform: scale3d(.75,1,1);
+    }
+    60%{
+        transform: scale3d(1.2,.8,1);
+    }
+    75%{
+        transform: scale3d(1.05,.95,1);
+    }
+    100%{
+        transform: scale3d(1,1,1);
+    }
 }
