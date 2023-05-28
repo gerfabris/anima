@@ -4,6 +4,7 @@ import logoBlue from "../../assets/logo/logo-blue.png";
 import logoCream from "../../assets/logo/logo-cream.png";
 import { FaBars } from "react-icons/fa";
 import "./Navbar.css";
+import { useNavbar } from "./useNavbar";
 
 const NavbarScroll = () => {
   const [scroll, setScroll] = useState(0);
@@ -99,24 +100,9 @@ const NavbarNormal = () => {
 };
 
 const Navbar = () => {
-  /* -- Scroll -- */
-  const [scroll, setScroll] = useState(0);
 
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+  const { scroll, isOpen, closeMenu, toggleMenu, handleNavlinkClick } =  useNavbar();
 
-  const handleScroll = () => {
-    setScroll(window.scrollY);
-  };
-  /* --- open menu --- */
-  const [isOpen, setIsOpen] = useState(false);
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
   return (
     <>
       <nav className={scroll > 0 ? "navscroll" : "nav"}>
@@ -125,6 +111,7 @@ const Navbar = () => {
             src={scroll > 0 ? logoCream : logoBlue}
             alt="Logo Anima - Estudio Creativo"
             className="nav__image"
+            onClick={closeMenu}
           />
         </NavLink>
         <div
@@ -132,19 +119,19 @@ const Navbar = () => {
             isOpen ? "open" : ""
           }`}
         >
-          <NavLink to="/" activeStyle className="navlink">
+          <NavLink to="/" activeStyle className="navlink" onClick={handleNavlinkClick}>
             Inicio
           </NavLink>
-          <NavLink to="/products" activeStyle className="navlink">
+          <NavLink to="/products" activeStyle className="navlink" onClick={handleNavlinkClick}>
             Servicios
           </NavLink>
-          <NavLink to="/about" activeStyle className="navlink">
+          <NavLink to="/about" activeStyle className="navlink" onClick={handleNavlinkClick}>
             Conoceme
           </NavLink>
-          <NavLink to="/portfolio" activeStyle className="navlink">
+          <NavLink to="/portfolio" activeStyle className="navlink" onClick={handleNavlinkClick}>
             Portfolio
           </NavLink>
-          <NavLink to="/contact" activeStyle className="navlink">
+          <NavLink to="/contact" activeStyle className="navlink" onClick={handleNavlinkClick}>
             Contactame
           </NavLink>
         </div>

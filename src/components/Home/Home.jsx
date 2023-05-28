@@ -1,14 +1,14 @@
 import { Sidebar } from "../Sidebar/Sidebar";
 import "./Home.css";
-import Ilusracion from "../../assets/Home/Cami.png";
+import Ilustracion from "../../assets/Home/Cami.png";
 export const Home = () => {
   return (
     <>
       <section id="home" className="home">
         <Sidebar />
-        <article className="container" id="home-welcome"> 
+        <article className="container container__home-welcome" id="home-welcome"> 
           <div className="imaginDiv"></div>
-          <div className="homeDiv">
+          <div className="homeDiv container__magictext">
             <h1 className="title">
               <span className="title-span">A</span>
               <span className="title-span">n</span>
@@ -16,7 +16,7 @@ export const Home = () => {
               <span className="title-span">m</span>
               <span className="title-span">a</span>
             </h1>
-            <hr />
+            <hr className="magictext-hr" />
             <h3 className="slogan">
               <span className="slogan-span">Transformamos</span>
               <span className="slogan-span">la</span>
@@ -28,8 +28,8 @@ export const Home = () => {
               <span className="slogan-span">diseño</span>
             </h3>
           </div>
-          <div className="homeDiv">
-            <img src={Ilusracion} alt="anima" />
+          <div className="homeDiv container__home-ilustration">
+            <img src={Ilustracion} alt="anima" className="ilustration__image" />
           </div>
         </article>
         <article className="container container__home-instagram" id="home-instagram"> 

@@ -334,4 +334,9 @@
   .navmenu{
     transition: .6s ease-in-out all;
   }
+  .navlink{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 20px;
+  }
 }
