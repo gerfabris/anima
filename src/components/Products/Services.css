@@ -6,6 +6,7 @@
     align-items: center;
     background-color: #F9EDE2;
     flex-direction: column;
+    margin-top: 2em;
 }
 .services{
     width: 100%;
@@ -23,7 +24,7 @@
     color: #558FA6;
 }
 .container__products-logo span {
-    color: #222222;
+    color: #023c53;
 }
 /* --- container services --- */
 .services-container {

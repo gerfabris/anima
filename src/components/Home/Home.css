@@ -68,13 +68,12 @@
     margin-bottom: 2em;
 }
 /* -- instagram -- */
-.container__home-instagram{
+.container__home-testimonios{
     margin-bottom: 2em;
-}
-.home__instagram{
     width: 80%;
     height: 20rem;
 }
+
 /* -- effects text slogan-- */
 /* -- scale -- */
 @keyframes scale {
@@ -167,6 +166,7 @@
     .container__home-ilustration{
         width: 90%;
         justify-content: center;
+        align-items: center;
         margin-bottom: 2em;
     }
 }

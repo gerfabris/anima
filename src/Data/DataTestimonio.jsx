@@ -1,4 +1,4 @@
-export const testimonios = [
+export const dataTestimonios = [
   {
     id: 1,
     cliente: "Nicole - Muelería Serendipia",

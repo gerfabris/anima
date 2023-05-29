@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
-const instagramToken = process.env.INSTAGRAM_TOKEN
+
+const instagramToken = ''
 
 export const useInstagramFeed = () => {
     const [images, setImages] = useState([]);

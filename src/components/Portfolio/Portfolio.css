@@ -18,7 +18,7 @@
     color: #558FA6;
 }
 .portfolio__title span {
-    color: #222222;
+    color: #023c53;
 }
 .portfolio-container{
     width: 90%;
@@ -50,7 +50,7 @@
 }
 .content-hr{
     display: block;
-    background: #222222;
+    background: #023c53;
     height: 0.25rem;
     width: 10.25rem;
     border: none;

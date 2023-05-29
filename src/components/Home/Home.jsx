@@ -1,7 +1,13 @@
 import { Sidebar } from "../Sidebar/Sidebar";
-import "./Home.css";
 import Ilustracion from "../../assets/Home/Cami.png";
+import { TestimoniosSwiper } from "../TestimoniosSwiper/TestimoniosSwiper";
+import { dataTestimonios } from "../../Data/DataTestimonio";
+
+import "./Home.css";
+/* -- -- */
 export const Home = () => {
+  const testimonios = dataTestimonios
+
   return (
     <>
       <section id="home" className="home">
@@ -32,8 +38,8 @@ export const Home = () => {
             <img src={Ilustracion} alt="anima" className="ilustration__image" />
           </div>
         </article>
-        <article className="container container__home-instagram" id="home-instagram"> 
-          <iframe className="home__instagram" src="http://instagram.com/p/MzRlODBiNWFlZA/embed" frameborder="0"></iframe>
+        <article className="container container__home-testimonios" id="home-testimonios"> 
+          <TestimoniosSwiper testimonios={testimonios} />
         </article>
       </section>
     </>
