@@ -1,10 +1,10 @@
-.container{
+.copy__container{
     display: flex;
     flex-direction: column;
-    width: 100dvw;
+    width: 100%;
     height: 15%;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;   
 }
 
 .item__container{
@@ -13,7 +13,8 @@
     align-items: center;
     justify-content: center;
     height: 15%;
-    width: 100dvw;
+    width: 100%;   
+    margin: 1em;
 }
 
 .item__container img {
@@ -24,11 +25,16 @@
 
 .item__container h5 {
     margin-top: 10px;
-    color: #000    
+    color: #000;
 }
+  
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 520px) {
     .item__container{
         flex-direction: column;
+    }
+
+    .item__container h5{
+        margin-bottom: 0.5em;
     }
 }
