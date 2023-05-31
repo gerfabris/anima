@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { MdAdsClick } from 'react-icons/md';
 import "./ItemCard.css";
 
 export const ItemCard = ({ service, index, onClick }) => {
@@ -21,8 +22,8 @@ export const ItemCard = ({ service, index, onClick }) => {
         <div className="card__image-wrapper">
           <img src={service.image} alt="" className="card__image" />
         </div>
-        <div className="card__content">
-          <span className="card__content-arrow"></span>
+        <div className="card__content-click">
+          <MdAdsClick className="click"/>
         </div>
       </div>
       <div className="card__back">

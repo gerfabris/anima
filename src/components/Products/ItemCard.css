@@ -8,7 +8,9 @@
 .service-card:hover{  
     transform: rotateY(-180deg);
 }
-
+.service-card:hover .card__back {
+    box-shadow: 0 0 20px 0 #558FA6;
+}
 .card__front,.card__back{
     width: 100%;
     height: 100%;
@@ -24,7 +26,9 @@
     border-radius: 5pt;
     padding: 2em;
     background-color: rgba(255,255,255,.05);
-    box-shadow: 0 0 5px rgba(0, 0, 0, .15);
+/*     box-shadow: 0 0 5px rgba(0, 0, 0, .15);
+ */    box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+    /* box-shadow: 0 0 20px 0 #558FA6; */
     backdrop-filter: blur(10px);
     border-radius: 8px;
 }
@@ -62,19 +66,35 @@
     flex-direction: column;
     text-align: center;
 }
+.card__content-click{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.click{
+    height: 95%;
+    animation: click 1s linear infinite;
+    font-size: 30px;
+}
 .card__content-description{ 
-    font-size: 0.7em;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    font-size: .9em;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 .card__content-button{
-    margin: 10px;
-    font-size: 0.7em;
+    margin-bottom: 1em;
+    font-size: 0.8em;
     color:#fff;
     background-color: #558FA6;
 }
 .card__back .card__content{
-    box-shadow: 0 0 5px rgba(0, 0, 0, .15);
+/*     box-shadow: 0 0 20px 0 #558FA6; */
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+    border-radius: 8px;
     backdrop-filter: blur(10px);
     height: 100%;
     width: 100%;
@@ -84,9 +104,37 @@
 .card__back .card__content-description{
     text-align: center;
 }
+/* -- media queries -- */
 @media screen and (max-width:520px) {
     .service-card{
         width: 80vmin;
         height: 90vmin;
+    }
+}
+@media screen and (min-width:1220px) {
+    .service-card{
+        max-width: 800px;
+        height: 500px;
+    }
+    .card__content-title{
+        font-size: 1.2em;
+    }
+    .card__image-wrapper {
+        max-width: 10em;
+        max-height: 10em;
+    }
+    .card__content-description{ 
+        font-size: 1em;
+
+    }
+}
+/* -- animation -- */
+@keyframes click {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.2);
+        fill: #558FA6;
     }
 }

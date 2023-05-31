@@ -1,6 +1,7 @@
 .swiper {
     width: 100%;
     height: 100%;
+    max-width: 1200px;
 }
 .swiper-slide {
     text-align: center;
@@ -14,6 +15,12 @@
 .swiper {
     margin-left: auto;
     margin-right: auto;
+}
+.swiper-button-prev{
+    --swiper-theme-color: #558FA6;
+}
+.swiper-button-next{
+    --swiper-theme-color: #558FA6;
 }
 .swiper-slide img {
 /*     display: block;
