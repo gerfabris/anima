@@ -77,8 +77,9 @@
 }
 .click{
     height: 95%;
-    animation: click 1s linear infinite;
-    font-size: 30px;
+/*     animation: click 2s linear infinite;
+ */    font-size: 30px;
+    fill: #558FA6;
 }
 .card__content-description{ 
     font-size: .9em;

@@ -14,7 +14,7 @@ export const TestimoniosSwiper = ( {testimonios} ) =>{
             <Swiper
                     centeredSlides={true}
                     autoplay={{
-                        delay: 4500,
+                        delay: 10000,
                         disableOnInteraction: false,
                     }}
                     slidesPerView={1}
