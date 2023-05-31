@@ -22,13 +22,6 @@
 .swiper-button-next{
     --swiper-theme-color: #558FA6;
 }
-.swiper-slide img {
-/*     display: block;
- */    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 50%;
-}
 /* -- custom -- */
 .container-testimonio{
     display: flex;
