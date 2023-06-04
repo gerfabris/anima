@@ -3,7 +3,7 @@ import "./WhatsApp.css";
 export const WhatsApp = () => {
   return (
     <section id="sectionWhatsapp">
-      <a href="#" target="_blank" className="whatsapp">
+      <a href="https://wa.link/oi5ntb" target="_blank" className="whatsapp">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 50 50"

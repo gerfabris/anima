@@ -8,21 +8,21 @@ export const dataTestimonios = [
   },
   {
     id: 2,
-    cliente: "Eugenia - Endrógena",
+    cliente: "Eugenia - Endógena",
     mensaje:
       "Creamos un logotipo que represente tu marca y refleje tus valores y guía de estilo para tu marca que incluye paleta de colores, tipografía, estilos de imagen y más..",
     servicioRealizado: "Creación de Logotipo.",
   },
   {
     id: 3,
-    cliente: "Andrea - Psicologa",
+    cliente: "Andrea - Psicóloga",
     mensaje:
       "Estoy muy satisfecha con el servicio de logo, es la primera vez que me aventuro a un proceso así, y me gustó mucho desde el primer momento, me sentí acompañada. Los cuestionarios son una gran guía, donde una puede plasmar las ideas, y las preguntas ayudan también, porque a veces, una tiene una vaga idea, pero las preguntas te hacen reflexionar bastante y ayuda. También la amabilidad y calidez desde quien llevó a cabo Anima, ayuda en este proceso de entendimiento, de familiarizarse con el procceso, y la guía de cómo seguirá. Me quedo muy conforme con el servicio. sin dudas lo voy a recomendar a mis conocidos, ya que fue una expriencia muy linda",
     servicioRealizado: "Creación de Logotipo.",
   },
   {
     id: 4,
-    cliente: "Sofía - C. Treinta y Tres",
+    cliente: "Sofía - Carnicería Boutique Treinta y Tres",
     mensaje:
       "Cami, la verdad estamos felices por el logo, no podemos creer lo lindo que quedó y que hayas captado a la perfección nuestras ideas. Durante todo el proceso nos evacuaste todas las dudas. También quería agradecerte por la amabilidad y dulzura que transimitís en los mensajes, eso está demás porque nos hizo sentir que podíamos confiar en tí y no nos equivocamos",
     servicioRealizado: "Creación de Logotipo.",

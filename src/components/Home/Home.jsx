@@ -6,13 +6,16 @@ import { dataTestimonios } from "../../Data/DataTestimonio";
 import "./Home.css";
 /* -- -- */
 export const Home = () => {
-  const testimonios = dataTestimonios
+  const testimonios = dataTestimonios;
 
   return (
     <>
       <section id="home" className="home">
         <Sidebar />
-        <article className="container container__home-welcome" id="home-welcome"> 
+        <article
+          className="container container__home-welcome"
+          id="home-welcome"
+        >
           <div className="imaginDiv"></div>
           <div className="homeDiv container__magictext">
             <h1 className="title">
@@ -38,7 +41,11 @@ export const Home = () => {
             <img src={Ilustracion} alt="anima" className="ilustration__image" />
           </div>
         </article>
-        <article className="container container__home-testimonios" id="home-testimonios"> 
+        <article
+          className="container container__home-testimonios"
+          id="home-testimonios"
+        >
+          <h2> ¿Qué opinan mis clientes? </h2>
           <TestimoniosSwiper testimonios={testimonios} />
         </article>
       </section>

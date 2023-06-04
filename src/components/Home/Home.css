@@ -73,7 +73,9 @@
     width: 80%;
     height: 20rem;
 }
-
+.container__home-testimonios h2{
+    color:#558FA6;
+}
 /* -- effects text slogan-- */
 /* -- scale -- */
 @keyframes scale {

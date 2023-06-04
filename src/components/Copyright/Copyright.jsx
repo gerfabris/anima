@@ -6,7 +6,9 @@ export const Copyright = () => {
     <div className="copy__container">
       <div className="item__container">
         <h5> Desarrollo web por </h5>
-        <img src={LogoCopyright} alt="Impulsar Dev Solutions" />
+        <a href="https://www.impulsardev.com.ar" target="blank">
+          <img src={LogoCopyright} alt="Impulsar Dev Solutions" />
+        </a>
       </div>
     </div>
   );
