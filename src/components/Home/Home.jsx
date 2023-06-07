@@ -45,7 +45,7 @@ export const Home = () => {
           className="container container__home-testimonios"
           id="home-testimonios"
         >
-          <h2> ¿Qué opinan mis clientes? </h2>
+          <h2 className="home-testimonios-title"> ¿Qué opinan mis clientes? </h2>
           <TestimoniosSwiper testimonios={testimonios} />
         </article>
       </section>
