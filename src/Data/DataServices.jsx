@@ -32,7 +32,7 @@ export const services = [
     title: "Pack de manejo de redes para Instagram",
     description:
       "Nos encargamos de la gestión completa de tus redes sociales, creando y publicando contenido, interactuando con tu audiencia y midiendo los resultados.",
-    image: "/src/assets/Servicios/social-media.png",
+    image: "/src/assets/Servicios/redes.png",
   },
   {
     id: 6,

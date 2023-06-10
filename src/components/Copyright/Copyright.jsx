@@ -1,5 +1,5 @@
 import "./Copyright.css";
-import LogoCopyright from "../../assets/Copyright/Composicion1-2.png";
+import LogoCopyright from "../../assets/Copyright/Composición1.png";
 
 export const Copyright = () => {
   return (
