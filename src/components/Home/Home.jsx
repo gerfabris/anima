@@ -1,12 +1,15 @@
 import { Sidebar } from "../Sidebar/Sidebar";
 import Ilustracion from "../../assets/Home/Cami.png";
+import IlustracionMobile from "../../assets/Home/Cami-mobile.png";
 import { TestimoniosSwiper } from "../TestimoniosSwiper/TestimoniosSwiper";
 import { dataTestimonios } from "../../Data/DataTestimonio";
 
 import "./Home.css";
+import { useImageSwitch } from "./useImageSwitch ";
 /* -- -- */
 export const Home = () => {
   const testimonios = dataTestimonios;
+  const imageUrl = useImageSwitch(Ilustracion, IlustracionMobile);
 
   return (
     <>
@@ -38,14 +41,14 @@ export const Home = () => {
             </h3>
           </div>
           <div className="homeDiv container__home-ilustration">
-            <img src={Ilustracion} alt="anima" className="ilustration__image" />
+            <img src={imageUrl} alt="anima" className="ilustration__image" />
           </div>
         </article>
         <article
           className="container container__home-testimonios"
           id="home-testimonios"
         >
-          <h2> ¿Qué opinan mis clientes? </h2>
+          <h2 className="home-testimonios-title"> ¿Qué opinan mis clientes? </h2>
           <TestimoniosSwiper testimonios={testimonios} />
         </article>
       </section>
