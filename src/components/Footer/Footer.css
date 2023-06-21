@@ -134,11 +134,14 @@
 .footer__copyright-h5{
     margin-top: .5em;
     margin-bottom: .5em;
+    color: #fff;
 }
+
 .footer__copyright-h5 span{
     margin-top: .5em;
     margin-bottom: .5em;
     font-size: .8em;
+    color: #fff;
 }
 .footer__copyright-h6{
     margin-top: .5em;
@@ -147,6 +150,7 @@
     justify-content: center;
     flex-direction: row;
     flex-wrap: nowrap;
+    color: #fff;
 }
 .footer__copyright-span{
     display: flex;
