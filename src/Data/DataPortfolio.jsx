@@ -4,7 +4,7 @@ export const dataPorfolio = [
     title: "Nutriendo",
     description:
       "Creación de logo para Nutriendo, Agus es nutricionista y te ayuda a alcanzar un estilo de vida saludable desde el abordaje No Dieta",
-    image: "/src/assets/Portfolio/logos/1.jpg",
+    image: "https://drive.google.com/uc?export=view&id=1MjW5FZo5c59J-8MCSFhHUiH1ZmLxihEh",
     category: "logos",
   },
   {
@@ -12,7 +12,7 @@ export const dataPorfolio = [
     title: "Plana",
     description:
       "Creación de logo para Plana, donde Ceci crea confort y diseño para el hogar con mantas XXL.",
-    image: "/src/assets/Portfolio/logos/2.png",
+    image: "https://drive.google.com/uc?export=view&id=17D6pex59x94iWz3bu84r4j4b6GYX-05l",
     category: "logos",
   },
   {
@@ -20,7 +20,7 @@ export const dataPorfolio = [
     title: "NUDM",
     description:
       "Creación de logo para NUDM, curso para crear hábitos saludables para siempre",
-    image: "/src/assets/Portfolio/logos/3.jpg",
+    image: "https://drive.google.com/uc?export=view&id=1_7sq8sfReIQ-REIbK7q6ZWvk8DuYhqdd",
     category: "logos",
   },
   {
@@ -28,7 +28,7 @@ export const dataPorfolio = [
     title: "Mi Julián",
     description:
       "Creación de logo para Mi Julían, tienda de Productos artesanales en madera, tela y diversos materiales, pensados para el uso cotidiano y el hogar con terminaciones en pintura a mano y decoupage.",
-    image: "/src/assets/Portfolio/logos/4.jpg",
+    image: "https://drive.google.com/uc?export=view&id=1O1-Hn8N2ozOjNRiqHP-_59AFDk9Xe4GQ",
     category: "logos",
   },
   {
@@ -36,7 +36,7 @@ export const dataPorfolio = [
     title: "El Martillo",
     description:
       "Creación de logo para El Martillo, criadores de ganado raza Aberdeen Angus 2016.",
-    image: "/src/assets/Portfolio/logos/5.jpg",
+    image: "https://drive.google.com/uc?export=view&id=1bU9cBLgAmwiSnjE19tH5wC_Lx357deId",
     category: "logos",
   },
   {
@@ -44,7 +44,7 @@ export const dataPorfolio = [
     title: "Shine UY",
     description:
       "Creación de logo para Shine UY, tienda de iluminación y deco para el hogar",
-    image: "/src/assets/Portfolio/logos/6.jpg",
+    image: "https://drive.google.com/uc?export=view&id=11kNaanoTwNPEMC2xy5mhHx4Gj_zOXhV4",
     category: "logos",
   },
   {
@@ -52,7 +52,7 @@ export const dataPorfolio = [
     title: "La Gota",
     description:
       "Creación de logo para La Gota, donde expandimos consciencia sobre discapacidad, diversidad e inclusión",
-    image: "/src/assets/Portfolio/logos/7.jpg",
+    image: "https://drive.google.com/uc?export=view&id=1pHRq3uKGZpvN1fSnWCMr6ZVa7N6DJXt1",
     category: "logos",
   },
   {
@@ -60,70 +60,70 @@ export const dataPorfolio = [
     title: "Cabaña Treinta y Tres",
     description:
       "Creación de logo para Cabaña Treinta y Tres, carnicería boutique.",
-    image: "/src/assets/Portfolio/logos/8.jpg",
+    image: "https://drive.google.com/uc?export=view&id=1beMi-RkyxMBt9J-Ys0T-1uSwJXBd6Ynj",
     category: "logos",
   },
   {
     id: 9,
     title: "",
     description: "",
-    image: "/src/assets/Portfolio/otros/1.jpg",
+    image: "https://drive.google.com/uc?export=view&id=1YXgzNWuvN-YnvWLDqUTXAA5YZhFSCUhq",
     category: "otros",
   },
   {
     id: 10,
     title: "",
     description: "",
-    image: "/src/assets/Portfolio/otros/2.jpg",
+    image: "https://drive.google.com/uc?export=view&id=1Oag6bJcIc0oJja_i63tj_7E_St_R14E9",
     category: "otros",
   },
   {
     id: 11,
     title: "",
     description: "",
-    image: "/src/assets/Portfolio/otros/3.jpg",
+    image: "https://drive.google.com/uc?export=view&id=1vTzcDeUhYbfQTI5JzqJ9823HzUwgHvCr",
     category: "otros",
   },
   {
     id: 12,
     title: "",
     description: "",
-    image: "/src/assets/Portfolio/otros/4.jpg",
+    image: "https://drive.google.com/uc?export=view&id=1hqc_hCHQKX8E3k1xEe4dhN2PGxVR0xLz",
     category: "otros",
   },
   {
     id: 13,
     title: "",
     description: "",
-    image: "/src/assets/Portfolio/redes/1.jpg",
+    image: "https://drive.google.com/uc?export=view&id=1Zrrw4NMN9sBjODWGEU272gbw3Bt4yr5z",
     category: "redes",
   },
   {
     id: 14,
     title: "",
     description: "",
-    image: "/src/assets/Portfolio/redes/2.jpg",
+    image: "https://drive.google.com/uc?export=view&id=16w8pO4rPCnH2v9VLq70BCtLhSoCIrclA",
     category: "redes",
   },
   {
     id: 15,
     title: "",
     description: "",
-    image: "/src/assets/Portfolio/redes/3.jpg",
+    image: "https://drive.google.com/uc?export=view&id=1Mq-p4WKQnBzogw2TnP9SOkhGEbYgrqMi",
     category: "redes",
   },
   {
     id: 16,
     title: "",
     description: "",
-    image: "/src/assets/Portfolio/redes/4.png",
+    image: "https://drive.google.com/uc?export=view&id=199I4RVm9VWpKuhYU2VeNA0TqsYZ1jLQS",
     category: "redes",
   },
   {
     id: 17,
     title: "",
     description: "",
-    image: "/src/assets/Portfolio/redes/5.png",
+    image: "https://drive.google.com/uc?export=view&id=1pwlJ6zisCjW-XbynYMaGESej1YMmKooN",
     category: "redes",
   },
   {
@@ -131,7 +131,7 @@ export const dataPorfolio = [
     title: "MJ",
     description:
       "Creación de logos para MJ, decoración de cumpleaños y eventos ",
-    image: "/src/assets/Portfolio/logos/9.jpg",
+    image: "https://drive.google.com/uc?export=view&id=1BB-cJHNFbNEqKLSH4g_7ho1_TMDH6sB7",
     category: "logos",
   },
   {
@@ -139,7 +139,7 @@ export const dataPorfolio = [
     title: "Lic. Andrea Soane",
     description:
       "Creación de logos para Andrea, psicóloga cognitiva conductual",
-    image: "/src/assets/Portfolio/logos/10.jpg",
+    image: "https://drive.google.com/uc?export=view&id=1l56PeSR_SYLlz21et3UAj6V4AZ2WS99Z",
     category: "logos",
   },
   {
@@ -147,7 +147,7 @@ export const dataPorfolio = [
     title: "Endógena",
     description:
       "Creación de logos para Endógena, tienda virtual de libros de mujeres autoras",
-    image: "/src/assets/Portfolio/logos/11.jpg",
+    image: "https://drive.google.com/uc?export=view&id=1rPzmXoDwnX0w1TJeJ3noKrQ8dHe4uTtO",
     category: "logos",
   },
   {
@@ -155,7 +155,56 @@ export const dataPorfolio = [
     title: "Out of the Box",
     description:
       "Creación de logos para Out of the Box, donde diseñamos y personalizamos materiales educativos para la enseñanza del inglés",
-    image: "/src/assets/Portfolio/logos/12.png",
+    image: "https://drive.google.com/uc?export=view&id=1CruP79AmPEXimnUuO4KFN1hg7VF2jAl8",
     category: "logos",
+  },
+  {
+    id: 22,
+    title: "",
+    description: '',
+    image: "https://drive.google.com/uc?export=view&id=1dQeiuvk_XCGR0csGeUXx26JtUxwsFGQo",
+    category: "redes",
+  },
+  {
+    id: 23,
+    title: "",
+    description: '',
+    image: "https://drive.google.com/uc?export=view&id=1XMRw9Vf4HZ8fomhyEf_Ki67IH5GDp1xs",
+    category: "redes",
+  },
+  {
+    id: 24,
+    title: "",
+    description: '',
+    image: "https://drive.google.com/uc?export=view&id=1pwlJ6zisCjW-XbynYMaGESej1YMmKooN",
+    category: "redes",
+  },
+  {
+    id: 25,
+    title: "",
+    description: "",
+    image: "https://drive.google.com/uc?export=view&id=1hqc_hCHQKX8E3k1xEe4dhN2PGxVR0xLz",
+    category: "otros",
+  },
+  {
+    id: 26,
+    title: "",
+    description: "",
+    image: "https://drive.google.com/uc?export=view&id=1GAOzknlrxcZQ_ZNtHPK_IOx6ibArrFdN",
+    category: "otros",
+  },
+  {
+    id: 27,
+    title: "",
+    description: "",
+    image: "https://drive.google.com/uc?export=view&id=1cnVVoBw6CEp2595ozubTNDRJuXOYPt7f",
+    category: "otros",
+  },
+  {
+    id: 28,
+    title: "",
+    description: "",
+    image: "https://drive.google.com/uc?export=view&id=1cnVVoBw6CEp2595ozubTNDRJuXOYPt7f",
+    category: "otros",
   },
 ];

@@ -76,6 +76,14 @@
   left: 0;
   z-index: 1000;
   border-radius: 0 10pt 10pt 0;
+  opacity: 0;
+}
+.animationSidebar{
+  animation: fadeInLeft 1s 1.5s;
+  animation-fill-mode: forwards;
+}
+.animationSidebar-out{
+  opacity: 1;
 }
 .sidebarOpen .linksContainer {
   display: flex;

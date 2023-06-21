@@ -5,7 +5,7 @@ import './Sidebar.css'
 
 export const Sidebar = () => {
   const [open, setOpen] = useState(true)
-
+  const [ animation , setAnimation ] = useState(false)
   const [scroll, setScroll] = useState(0);
 
   useEffect(() => {
@@ -19,8 +19,21 @@ export const Sidebar = () => {
       setScroll(window.scrollY);
   }
 
+  useEffect(() => {
+    setAnimation(true)
+    console.log(animation);
+    const timeout = setTimeout(() => {
+      setAnimation(false);
+      console.log(animation);
+    }, 3000);
+
+    return () => {
+      clearTimeout(timeout);
+    };
+  }, [])
+
   return (
-    <div className={ `${open ? "sidebarOpen" : "sidebar"} ${scroll > 0 ? 'display-none' : 'appear' }` }>
+    <div className={ `${open ? "sidebarOpen" : "sidebar"} ${scroll > 0 ? 'display-none' : 'appear' } ${animation ? 'animationSidebar' : 'animationSidebar-out'}`  }>
       <svg
         className="hamburger"
         onClick={() => setOpen (!open)}

@@ -24,7 +24,10 @@
     text-align: justify;    
     margin-right: 1.5em;
     margin-left: 1.5em;
-    font-family: 'ITC Avant Garde Gothic Std', sans-serif; 
+    font-family: 'ITC Avant Garde Gothic Std', sans-serif;
+    opacity: 0;
+    animation: fadeInLeft 1s 1.5s;
+    animation-fill-mode: forwards; 
 }
 .h3 {
     margin-left: 1rem;
@@ -51,6 +54,9 @@
     height: 100%;    
     flex-direction: row;
     margin: 0;
+    opacity: 0;
+    animation: fadeInRight 1s 1.5s;
+    animation-fill-mode: forwards;
 }
 .contenedor-img{
     height: 100%;   
