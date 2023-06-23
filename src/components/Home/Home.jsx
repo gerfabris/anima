@@ -1,13 +1,12 @@
 import { Sidebar } from "../Sidebar/Sidebar";
-import Ilustracion from "../../assets/Home/Cami.png";
-import IlustracionMobile from "../../assets/Home/Cami-mobile.png";
 import { TestimoniosSwiper } from "../TestimoniosSwiper/TestimoniosSwiper";
 import { dataTestimonios } from "../../Data/DataTestimonio";
-
-import "./Home.css";
 import { useImageSwitch } from "./useImageSwitch ";
+import "./Home.css";
 /* -- -- */
 export const Home = () => {
+  const Ilustracion = "https://drive.google.com/uc?export=view&id=1oK9d5mrzehw8e6d4dMHUgUFKqSeAnZoo";
+  const IlustracionMobile = "https://drive.google.com/uc?export=view&id=1ePP3S026zjsL8I_QwkJe-r5Z5i6OuLYO";
   const testimonios = dataTestimonios;
   const imageUrl = useImageSwitch(Ilustracion, IlustracionMobile);
 

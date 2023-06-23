@@ -85,7 +85,7 @@
     width: 80%;
     height: 20rem;
     opacity: 0;
-    animation: fadeIn 1s 1.5s;
+    animation: fadeIn 2s 1.5s;
     animation-fill-mode: forwards;
 }
 .container__home-testimonios h2{

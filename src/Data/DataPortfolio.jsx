@@ -131,7 +131,7 @@ export const dataPorfolio = [
     title: "MJ",
     description:
       "Creación de logos para MJ, decoración de cumpleaños y eventos ",
-    image: "https://drive.google.com/uc?export=view&id=1BB-cJHNFbNEqKLSH4g_7ho1_TMDH6sB7",
+    image: "https://drive.google.com/uc?export=view&id=1rPzmXoDwnX0w1TJeJ3noKrQ8dHe4uTtO",
     category: "logos",
   },
   {
@@ -139,7 +139,7 @@ export const dataPorfolio = [
     title: "Lic. Andrea Soane",
     description:
       "Creación de logos para Andrea, psicóloga cognitiva conductual",
-    image: "https://drive.google.com/uc?export=view&id=1l56PeSR_SYLlz21et3UAj6V4AZ2WS99Z",
+    image: "https://drive.google.com/uc?export=view&id=1BB-cJHNFbNEqKLSH4g_7ho1_TMDH6sB7",
     category: "logos",
   },
   {
@@ -147,7 +147,7 @@ export const dataPorfolio = [
     title: "Endógena",
     description:
       "Creación de logos para Endógena, tienda virtual de libros de mujeres autoras",
-    image: "https://drive.google.com/uc?export=view&id=1rPzmXoDwnX0w1TJeJ3noKrQ8dHe4uTtO",
+    image: "https://drive.google.com/uc?export=view&id=1l56PeSR_SYLlz21et3UAj6V4AZ2WS99Z",
     category: "logos",
   },
   {
@@ -176,35 +176,28 @@ export const dataPorfolio = [
     id: 24,
     title: "",
     description: '',
-    image: "https://drive.google.com/uc?export=view&id=1pwlJ6zisCjW-XbynYMaGESej1YMmKooN",
+    image: "https://drive.google.com/uc?export=view&id=1xB1JxU3py0UoGSpxGorMRe6sHLOHQOPR",
     category: "redes",
   },
   {
     id: 25,
     title: "",
     description: "",
-    image: "https://drive.google.com/uc?export=view&id=1hqc_hCHQKX8E3k1xEe4dhN2PGxVR0xLz",
+    image: "https://drive.google.com/uc?export=view&id=1GAOzknlrxcZQ_ZNtHPK_IOx6ibArrFdN",
     category: "otros",
   },
   {
     id: 26,
     title: "",
-    description: "",
-    image: "https://drive.google.com/uc?export=view&id=1GAOzknlrxcZQ_ZNtHPK_IOx6ibArrFdN",
+    description: "https://drive.google.com/uc?export=view&id=1cnVVoBw6CEp2595ozubTNDRJuXOYPt7f",
+    image: "",
     category: "otros",
   },
   {
     id: 27,
     title: "",
     description: "",
-    image: "https://drive.google.com/uc?export=view&id=1cnVVoBw6CEp2595ozubTNDRJuXOYPt7f",
-    category: "otros",
-  },
-  {
-    id: 28,
-    title: "",
-    description: "",
-    image: "https://drive.google.com/uc?export=view&id=1cnVVoBw6CEp2595ozubTNDRJuXOYPt7f",
+    image: "https://drive.google.com/uc?export=view&id=1gQgXkxUH0w7_-I0cAu3dJwhdP6EUi-g5",
     category: "otros",
   },
 ];

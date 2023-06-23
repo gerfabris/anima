@@ -1,9 +1,10 @@
 import "./About.css";
-import ImagenAbout from "../../assets/About/foto-about.jpg";
-import LogoAi from "../../assets/About/logoai.png";
-import LogoPs from "../../assets/About/logops.png";
 
 export const About = () => {
+  const ImagenAbout = "https://drive.google.com/uc?export=view&id=1oZqAN6lLQlGFDsmpfecuryGXOdxkqmpx";
+  const  LogoAi = "https://drive.google.com/uc?export=view&id=1e7NxcXOzUNbOU-4H1eEVp09eNCit8k1Z";
+  const LogoPs = "https://drive.google.com/uc?export=view&id=15c_XYkpnGryhyVQcgkT5wi8HwFohaVo3";
+
   return (
     <section id="about">
       <div className="container-about">
