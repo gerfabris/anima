@@ -1,42 +1,44 @@
 import { useEffect, useState } from "react";
 import { Links } from "../../Data/Links";
 import { ItemSidebar } from "../ItemSidebar/ItemSidebar";
-import './Sidebar.css'
+import "./Sidebar.css";
 
 export const Sidebar = () => {
-  const [open, setOpen] = useState(true)
-  const [ animation , setAnimation ] = useState(false)
+  const [open, setOpen] = useState(true);
+  const [animation, setAnimation] = useState(false);
   const [scroll, setScroll] = useState(0);
 
   useEffect(() => {
-      window.addEventListener('scroll', handleScroll);
-      return () => {
-          window.removeEventListener('scroll', handleScroll);
-      }
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
   }, []);
-  
+
   const handleScroll = () => {
-      setScroll(window.scrollY);
-  }
+    setScroll(window.scrollY);
+  };
 
   useEffect(() => {
-    setAnimation(true)
-    console.log(animation);
+    setAnimation(true);
     const timeout = setTimeout(() => {
       setAnimation(false);
-      console.log(animation);
     }, 3000);
 
     return () => {
       clearTimeout(timeout);
     };
-  }, [])
+  }, []);
 
   return (
-    <div className={ `${open ? "sidebarOpen" : "sidebar"} ${scroll > 0 ? 'display-none' : 'appear' } ${animation ? 'animationSidebar' : 'animationSidebar-out'}`  }>
+    <div
+      className={`${open ? "sidebarOpen" : "sidebar"} ${
+        scroll > 0 ? "display-none" : "appear"
+      } ${animation ? "animationSidebar" : "animationSidebar-out"}`}
+    >
       <svg
         className="hamburger"
-        onClick={() => setOpen (!open)}
+        onClick={() => setOpen(!open)}
         viewBox="0 0 18 12"
       >
         <path
@@ -46,10 +48,10 @@ export const Sidebar = () => {
       </svg>
       <div className="linksContainer">
         {Links &&
-          Links.map (({to, text, svg}) => (
+          Links.map(({ to, text, svg }) => (
             <ItemSidebar key={text} to={to} text={text} svg={svg} open={open} />
           ))}
       </div>
     </div>
-  )
-}
+  );
+};

@@ -24,6 +24,9 @@
 .cardportfolio{
     position: relative;
     overflow: hidden;
+    opacity: 0;
+    animation: fadeInRight 1s 1.5s;
+    animation-fill-mode: forwards;
 }
 .cardportfolio-image{
     scale: 1.15;

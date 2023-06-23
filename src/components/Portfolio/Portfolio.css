@@ -37,6 +37,9 @@
     align-items: left;
     width: 30%;
     margin-right: 1em;
+    opacity: 0;
+    animation: fadeInLeft 1.5s;
+    animation-fill-mode: forwards;
 }
 .content-title{
     text-transform: capitalize;
