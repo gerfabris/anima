@@ -106,15 +106,15 @@ export const ContactGrid = () => {
               <hr className="contact-info-hr" />
               <ul className="contact-info-ul">
                 <li>
-                  <i className="fas fa-map-marker-alt"></i> <FaMapMarker />{" "}
+                  <i className="fas fa-map-marker-alt"></i> {" "}
                   Colonia, Uruguay
                 </li>
                 <li>
-                  <i className="fas fa-phone"></i> <FaPhone /> +598 98 510 246
+                  <i className="fas fa-phone"></i> +598 98 510 246
                 </li>
                 <li>
                   <i className="fas fa-envelope-open-text"></i>{" "}
-                  <FaEnvelopeOpen /> animadgs@gmail.com
+        animadgs@gmail.com
                 </li>
               </ul>
             </div>
@@ -123,7 +123,7 @@ export const ContactGrid = () => {
                 ¿Llevamos juntos tu emprendimiento un escalón más arriba?
               </p>
               <p>
-                Anima.<span>uy</span>
+                animaestudiocreativo.<span>com</span>
               </p>
             </div>
           </div>

@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { useRef, useState } from "react";
+import { useEffect } from "react";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/effect-coverflow";
@@ -10,6 +10,21 @@ import "./SwiperPortfolio.css";
 import { EffectCoverflow, Pagination } from "swiper";
 
 export const SwiperPortfolio = ({ portfolio }) => {
+ /* -- preload images */
+  useEffect(() => {
+    const imagesToPreload = portfolio.map((itemportfolio) => itemportfolio.image);
+
+    const preloadImages = () => {
+      imagesToPreload.forEach((imageUrl) => {
+        const image = new Image();
+        image.src = imageUrl;
+      });
+    };
+
+    preloadImages();
+
+  }, [portfolio]);
+  /* --- */
   return (
     <Swiper
       effect={"coverflow"}
@@ -31,7 +46,7 @@ export const SwiperPortfolio = ({ portfolio }) => {
         <SwiperSlide className="cardportfolio" key={itemportfolio.id}>
           <img
             src={itemportfolio.image}
-            alt=""
+            alt={itemportfolio.title}
             className="cardportfolio-image"
           />
           <figcaption className="cardportfolio-body">

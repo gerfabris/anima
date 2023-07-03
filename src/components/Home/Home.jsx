@@ -5,10 +5,14 @@ import { useImageSwitch } from "./useImageSwitch ";
 import "./Home.css";
 /* -- -- */
 export const Home = () => {
-  const Ilustracion = "https://drive.google.com/uc?export=view&id=1oK9d5mrzehw8e6d4dMHUgUFKqSeAnZoo";
-  const IlustracionMobile = "https://drive.google.com/uc?export=view&id=1ePP3S026zjsL8I_QwkJe-r5Z5i6OuLYO";
+  const ilustration = new Image()
+  const ilustrationMobile = new Image()
+  ilustration.src = "https://drive.google.com/uc?export=view&id=1oK9d5mrzehw8e6d4dMHUgUFKqSeAnZoo";
+  ilustrationMobile.src = "https://drive.google.com/uc?export=view&id=1ePP3S026zjsL8I_QwkJe-r5Z5i6OuLYO";
+/*   const Ilustracion = "https://drive.google.com/uc?export=view&id=1oK9d5mrzehw8e6d4dMHUgUFKqSeAnZoo";
+  const IlustracionMobile = "https://drive.google.com/uc?export=view&id=1ePP3S026zjsL8I_QwkJe-r5Z5i6OuLYO"; */
   const testimonios = dataTestimonios;
-  const imageUrl = useImageSwitch(Ilustracion, IlustracionMobile);
+  const imageUrl = useImageSwitch(ilustration, ilustrationMobile);
 
   return (
     <>
@@ -40,7 +44,7 @@ export const Home = () => {
             </h3>
           </div>
           <div className="homeDiv container__home-ilustration">
-            <img src={imageUrl} alt="anima" className="ilustration__image" />
+            <img src={imageUrl} alt="Anima Estudio Creativo - Home" className="ilustration__image" />
           </div>
         </article>
         <article
