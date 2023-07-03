@@ -12,8 +12,7 @@ export const Home = () => {
 /*   const Ilustracion = "https://drive.google.com/uc?export=view&id=1oK9d5mrzehw8e6d4dMHUgUFKqSeAnZoo";
   const IlustracionMobile = "https://drive.google.com/uc?export=view&id=1ePP3S026zjsL8I_QwkJe-r5Z5i6OuLYO"; */
   const testimonios = dataTestimonios;
-  const imageUrl = useImageSwitch(ilustration, ilustrationMobile);
-
+  const imageUrl = useImageSwitch(ilustration.src, ilustrationMobile.src);
   return (
     <>
       <section id="home" className="home">
