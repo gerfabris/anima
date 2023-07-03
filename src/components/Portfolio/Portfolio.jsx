@@ -12,7 +12,7 @@ export const Portfolio = () => {
   const portfolioOtros = dataPorfolio.filter(
     (item) => item.category === "otros"
   );
-
+  /* ------ */
   return (
     <section id="portfolio" className="section__portfolio">
       <h2 className="portfolio__title">
@@ -21,9 +21,10 @@ export const Portfolio = () => {
 
       <div className="portfolio-container">
         <div className="container-content">
-          <h3 className="content-title">Redes sociales</h3>
+          <h3 className="content-title">
+            Redes sociales
+          </h3>
           <hr className="content-hr" />
-          <p className="content-p"> Texto de redes sociales</p>
         </div>
         <div className="container-swiper">
           <SwiperPortfolio portfolio={portfolioRedes} />
@@ -33,7 +34,6 @@ export const Portfolio = () => {
         <div className="container-content">
           <h3 className="content-title">Logos </h3>
           <hr className="content-hr" />
-          <p className="content-p"> Texto de logos</p>
         </div>
         <div className="container-swiper">
           <SwiperPortfolio portfolio={portfolioLogos} />
@@ -43,7 +43,6 @@ export const Portfolio = () => {
         <div className="container-content">
           <h3 className="content-title"> Otros </h3>
           <hr className="content-hr" />
-          <p className="content-p"> Texto de otros </p>
         </div>
         <div className="container-swiper">
           <SwiperPortfolio portfolio={portfolioOtros} />

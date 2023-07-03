@@ -13,7 +13,7 @@ export const Contact = () => {
         >
           <div className="form__div">
             <div className="input__container">
-              <label htmlFor="">Nombre</label>
+              <label htmlFor="">Tu nombre</label>
               <input
                 type="name"
                 name="name"
@@ -38,7 +38,7 @@ export const Contact = () => {
             </div>
           </div>
           <div className="form__div">
-            <h3> Enviame tu mensaje </h3>
+            <h3>¿En qué te puedo ayudar?</h3>
             <div className="input__container">
               <textarea
                 class="form-control"

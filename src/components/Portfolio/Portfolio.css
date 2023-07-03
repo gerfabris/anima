@@ -46,16 +46,19 @@
     letter-spacing: 0.8px;
     font-family: "Roboto", sans-serif;
     font-weight: 900;
-    font-size: clamp(3.4375rem, 3.25rem + 0.75vw, 4rem);
+    font-size: clamp(3rem, 3rem + 0.50vw, 3rem);
     color: #558FA6;
     text-align: left;
     width: 100%;
 }
+.content-title-span:hover{
+    animation: rubberBand 1s;
+}
 .content-hr{
     display: block;
     background: #023c53;
-    height: 0.25rem;
-    width: 10.25rem;
+    height: 0.15rem;
+    width: 85%;
     border: none;
     margin: 1.125rem 0 1.875rem 0;
 }
@@ -92,5 +95,26 @@
     }
     .content-title{
         text-align: center;
+    }
+}
+/* animation: rubberBand 1s */
+@keyframes rubberBand {
+    0%{
+        transform: scale3d(1,1,1);
+    }
+    35%{
+        transform: scale3d(1.25,.75,1);
+    }
+    45%{
+        transform: scale3d(.75,1,1);
+    }
+    60%{
+        transform: scale3d(1.2,.8,1);
+    }
+    75%{
+        transform: scale3d(1.05,.95,1);
+    }
+    100%{
+        transform: scale3d(1,1,1);
     }
 }
