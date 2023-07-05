@@ -95,8 +95,8 @@ export const ContactGrid = () => {
                 <label>Dime tu mensaje</label>
                 <textarea name="message" rows="3"></textarea>
               </p>
-              <p className="block">
-                <button>Enviar</button>
+              <p className="block contact-form-container-button">
+                <button className="contact-form-button">Enviar</button>
               </p>
             </form>
           </div>

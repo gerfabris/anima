@@ -97,6 +97,9 @@
     }
 }
 @media screen and (max-width:520px) {
+    .switer-wrapper{
+        height: 60vh;
+    }
     .swiper-slide{
         width: 75vmin;
         height: 95vmin;

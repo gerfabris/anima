@@ -184,13 +184,14 @@
   }
   .socialMedia-items{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
     width: 100%;
     max-height: 20%;
+    gap: 1em;
   }
   .socialMedia-items .itemSocialMedia__container-svg svg {
       width: 25px;

@@ -164,7 +164,9 @@
     }
     .container__magictext{
         width: 90%;
-        margin-bottom: 2em;
+/*         margin-bottom: 2em;
+ */        margin-top: 1em;
+        padding: 1em;
     }
     .slogan{
         margin-bottom: 0;
@@ -172,9 +174,10 @@
     }
     .magictext-hr{
         margin-bottom: 1em;
+        width: 80%;
     }
     .title{
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
     .slogan{
         font-size: 2rem;
@@ -190,7 +193,7 @@
 /* -- media queries -- */
 @media screen and (max-width:520px){
     .container__home-testimonios{
-        width: 100%;
+        width: 98%;
         height: 100%;
     }
 }
