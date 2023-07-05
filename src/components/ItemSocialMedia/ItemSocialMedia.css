@@ -1,22 +1,23 @@
-.socialMedia-a div {
+.itemSocialMedia__container-svg {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     height: 100%;
 }
-.socialMedia-a svg{
+.itemSocialMedia__container-svg svg{
     width: 30px;
     height: 30px;
     margin-left: .5em;
     margin-right: .5em;
+    cursor: pointer;
 }
-.socialMedia-a svg:hover{
+.itemSocialMedia__container-svg svg:hover{
     transform: scale(1.2);
 }
-.socialMedia-a path {
+.itemSocialMedia__container-svg path {
     fill: #F9EDE2;
 }
-.socialMedia-a:hover path {
+.itemSocialMedia__container-svg:hover path {
     fill: #023c53;
 }

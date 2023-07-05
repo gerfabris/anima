@@ -5,8 +5,8 @@ export const useNavbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     // Función para abrir el menú al tocar el toggle
-    const toggleMenu = () => {
-        setIsOpen(!isOpen);
+    const openMenu = () => {
+        setIsOpen(true);
     };
     // Función para cerrar el menú
     const closeMenu = () => {
@@ -39,5 +39,5 @@ export const useNavbar = () => {
         };
     }, []);
 
-    return { scroll, isOpen, closeMenu, toggleMenu, handleNavlinkClick };
+    return { scroll, isOpen, closeMenu, openMenu, handleNavlinkClick };
 };

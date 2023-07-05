@@ -1,10 +1,10 @@
-import { Link, NavLink } from "react-router-dom";
 import LogoFooter from "../../assets/Footer/Frame 5.png";
 import LetrasFooter from "../../assets/Footer/Frame_3-removebg.png";
+import { Link, NavLink } from "react-router-dom";
 import { SocialMedia } from "../../Data/SocialMedia";
 import { ItemSocialMedia } from "../ItemSocialMedia/ItemSocialMedia";
-import "./Footer.css";
 import { Copyright } from "../Copyright/Copyright";
+import "./Footer.css";
 
 export const Footer = () => {
   return (
