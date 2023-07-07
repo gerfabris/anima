@@ -69,7 +69,7 @@ export const ContactGrid = () => {
         </h1>
         <div className="contact-wrapper animated bounceInUp">
           <div className="contact-form">
-            <h3>Contactate</h3>
+            <h3 className="contact-form-title">Contactate</h3>
             <form
               action="https://formspree.io/f/mwkjjggb"
               method="POST"
@@ -114,7 +114,11 @@ export const ContactGrid = () => {
                 </li>
                 <li>
                   <i className="fas fa-envelope-open-text"></i>{" "}
-        animadgs@gmail.com
+                    <a 
+                      className="contact-form-a"
+                      href="mailto:animadgs@gmail.com">
+                      animadgs@gmail.com
+                    </a>
                 </li>
               </ul>
             </div>
@@ -122,7 +126,7 @@ export const ContactGrid = () => {
               <p className="contact-info-p">
                 ¿Llevamos juntos tu emprendimiento un escalón más arriba?
               </p>
-              <p>
+              <p className="contact-form-bottom">
                 animaestudiocreativo.<span>com</span>
               </p>
             </div>

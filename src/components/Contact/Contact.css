@@ -200,6 +200,10 @@
     width: 80%;
     text-align: center;
 }
+.contact-form-a{
+    text-decoration: none;
+    color: #558FA6;
+}
 /* LARGE SIZE */
 @media(min-width: 500px) {
     .contact-form form {
@@ -231,17 +235,26 @@
     .container__form-logo{
         font-size: 2em;
     }
+    .contact-form-title{
+        text-align: center;
+        margin-bottom: 0.5em;
+        color: #023c53;
+    }
     .contact-form-container-button{
         display: flex;
         justify-content: center;
         align-items: center;
     }
     .contact-form-button{
-        padding: .5em;
-        width: 80%;
+        padding: 1em;
+        width: 50%;
         font-size: .8em;
+        border-radius: 20pt
     }
     .contact-form form textarea{
         margin: 0;
+    }
+    .contact-form-bottom{
+        margin-bottom: 1em;
     }
 }

@@ -27,6 +27,7 @@ const Navbar = () => {
           {
             `
             ${isOpen ? "navmenu open" : "navmenu"}
+            ${scroll > 0 ? "scroll" : ''}
             `
           }
         >

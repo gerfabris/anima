@@ -48,12 +48,15 @@
   color: #F9EDE2
 }
 .navmenu{
-  display: flex;
+  display: none;
   align-items: center;
   margin-right: 3em;
   gap: 2em;
   justify-content: flex-end;
   width: 75%;
+}
+.navmenu.scroll{
+  display: flex;
 }
 .navlink-logo{
   display: flex;
