@@ -3,6 +3,10 @@ import { TestimoniosSwiper } from "../TestimoniosSwiper/TestimoniosSwiper";
 import { dataTestimonios } from "../../Data/DataTestimonio";
 import { useImageSwitch } from "./useImageSwitch ";
 import "./Home.css";
+import { SpaceText } from "../SpaceText/SpaceText";
+/* import Swiper Services */
+import { services } from "../../Data/DataServices";
+import { SwiperServices } from "../SwiperServices/SwiperServices";
 /* -- -- */
 export const Home = () => {
   const ilustration = new Image();
@@ -33,16 +37,20 @@ export const Home = () => {
               <span className="title-span">a</span>
             </h1>
             <hr className="magictext-hr" />
-            <h3 className="slogan">
-              <span className="slogan-span">Diseñamos</span>
-              <span className="slogan-span">juntas</span>
-              <span className="slogan-span">soluciones</span>
-              <span className="slogan-span">que</span>
-              <span className="slogan-span">harán</span>
-              <span className="slogan-span">brillar</span>
-              <span className="slogan-span">tu</span>
-              <span className="slogan-span">emprendimiento.</span>
-            </h3>
+            <div className="container-slogan">
+              <h3 className="slogan">
+                <span className="slogan-span">Diseñamos</span>
+                <span className="slogan-span">juntas</span>
+                <span className="slogan-span">soluciones</span>
+              </h3>
+              <h3 className="slogan">
+                <span className="slogan-span">que</span>
+                <span className="slogan-span">harán</span>
+                <span className="slogan-span">brillar</span>
+                <span className="slogan-span">tu</span>
+                <span className="slogan-span">emprendimiento.</span>
+              </h3>
+            </div>
           </div>
           <div className="homeDiv container__home-ilustration">
             <img
@@ -52,6 +60,8 @@ export const Home = () => {
             />
           </div>
         </article>
+        <SpaceText/>
+        <SwiperServices services={services} />
         <article
           className="container container__home-testimonios"
           id="home-testimonios"

@@ -1,3 +1,4 @@
+import { SwiperServices } from "../SwiperServices/SwiperServices";
 import "./About.css";
 
 export const About = () => {

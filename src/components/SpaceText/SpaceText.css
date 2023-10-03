@@ -1,0 +1,23 @@
+.article-spaceText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 320px;
+    background-color: #558FA6;
+    margin-bottom: 2em;
+}
+.container-spaceText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding: 2em;
+}
+.paragraph-spaceText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    text-align: center;
+}
