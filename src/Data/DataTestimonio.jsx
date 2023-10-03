@@ -38,7 +38,7 @@ export const dataTestimonios = [
     id: 6,
     cliente: "Ana Claudia - La Gota",
     mensaje:
-      "Cami, entendió perfectamente desde el día uno, el propósito de nuestra marca y su razón de ser.     Así logró crear nuestra imagen de marca, creando nuestro logo y todo el material de diseño gráfico que necesitamos cada vez que se lo solicitamos. se ajuste a lo que deseamos transmitir e Empatiza con sus clientes y siempre busca la forma de que sus diseños se ajusten a lo que deseamos transmitir",
+      "Cami, entendió perfectamente desde el día uno, el propósito de nuestra marca y su razón de ser. Así logró crear nuestra imagen de marca, creando nuestro logo y todo el material de diseño gráfico que necesitamos cada vez que se lo solicitamos. Se ajusta a lo que deseamos transmitir y empatiza con sus clientes y siempre busca la forma de que sus diseños se ajusten a lo que deseamos transmitir",
     servicioRealizado: "Creación de Logotipo.",
   },
   {

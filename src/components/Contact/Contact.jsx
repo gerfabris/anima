@@ -69,14 +69,14 @@ export const ContactGrid = () => {
         </h1>
         <div className="contact-wrapper animated bounceInUp">
           <div className="contact-form">
-            <h3 className="contact-form-title">Contactate</h3>
+            {/* <h3 className="contact-form-title">Contactate</h3> */}
             <form
               action="https://formspree.io/f/mwkjjggb"
               method="POST"
               className="form-content"
             >
               <p>
-                <label>Nombre y Apellido</label>
+                <label>Tu nombre</label>
                 <input type="text" name="fullname" />
               </p>
               <p>
@@ -92,7 +92,7 @@ export const ContactGrid = () => {
                 <input type="text" name="affair" />
               </p>
               <p className="block">
-                <label>Dime tu mensaje</label>
+                <label>¿En qué te puedo ayudar?</label>
                 <textarea name="message" rows="3"></textarea>
               </p>
               <p className="block contact-form-container-button">
@@ -106,25 +106,25 @@ export const ContactGrid = () => {
               <hr className="contact-info-hr" />
               <ul className="contact-info-ul">
                 <li>
-                  <i className="fas fa-map-marker-alt"></i> {" "}
-                  Colonia, Uruguay
+                  <i className="fas fa-map-marker-alt"></i> Colonia, Uruguay
                 </li>
                 <li>
                   <i className="fas fa-phone"></i> +598 98 510 246
                 </li>
                 <li>
                   <i className="fas fa-envelope-open-text"></i>{" "}
-                    <a 
-                      className="contact-form-a"
-                      href="mailto:animadgs@gmail.com">
-                      animadgs@gmail.com
-                    </a>
+                  <a
+                    className="contact-form-a"
+                    href="mailto:animadgs@gmail.com"
+                  >
+                    animadgs@gmail.com
+                  </a>
                 </li>
               </ul>
             </div>
             <div className="contact-info-container">
               <p className="contact-info-p">
-                ¿Llevamos juntos tu emprendimiento un escalón más arriba?
+                ¿Llevamos juntas tu emprendimiento un escalón más arriba?
               </p>
               <p className="contact-form-bottom">
                 animaestudiocreativo.<span>com</span>

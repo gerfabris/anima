@@ -9,7 +9,8 @@ import { ItemSocialMedia } from "../ItemSocialMedia/ItemSocialMedia";
 import "./Navbar.css";
 
 const Navbar = () => {
-  const { scroll, isOpen, closeMenu, openMenu, handleNavlinkClick } = useNavbar();
+  const { scroll, isOpen, closeMenu, openMenu, handleNavlinkClick } =
+    useNavbar();
 
   return (
     <>
@@ -23,13 +24,10 @@ const Navbar = () => {
           />
         </NavLink>
         <div
-          className=
-          {
-            `
+          className={`
             ${isOpen ? "navmenu open" : "navmenu"}
-            ${scroll > 0 ? "scroll" : ''}
-            `
-          }
+            ${scroll > 0 ? "scroll" : ""}
+            `}
         >
           <div className="container-menuNavlinks">
             <NavLink to="/" className="navlink" onClick={handleNavlinkClick}>
@@ -42,8 +40,12 @@ const Navbar = () => {
             >
               Servicios
             </NavLink>
-            <NavLink to="/about" className="navlink" onClick={handleNavlinkClick}>
-              Conoceme
+            <NavLink
+              to="/about"
+              className="navlink"
+              onClick={handleNavlinkClick}
+            >
+              Sobre Anima
             </NavLink>
             <NavLink
               to="/portfolio"
@@ -57,9 +59,8 @@ const Navbar = () => {
               className="navlink"
               onClick={handleNavlinkClick}
             >
-              Contactame
+              Charlemos
             </NavLink>
-
           </div>
           <div className="navbar-container-socialMedia ">
             <div className="socialMedia-items">
@@ -71,24 +72,18 @@ const Navbar = () => {
           </div>
         </div>
         <div className="nav-toggle">
-          <FaBars 
-            className=
-              {
-                `
-                ${isOpen ? "bars-none" : "bars" }
-                ${scroll > 0 ? "" : "scroll" } 
-                `
-              }
+          <FaBars
+            className={`
+                ${isOpen ? "bars-none" : "bars"}
+                ${scroll > 0 ? "" : "scroll"} 
+                `}
             onClick={openMenu}
           />
-          <CgClose 
-            className=
-            {
-              `
-              ${isOpen ? "closeMenu" : "closeMenu-none" }
-              ${scroll > 0 ? "" : "scroll" } 
-              `
-            }
+          <CgClose
+            className={`
+              ${isOpen ? "closeMenu" : "closeMenu-none"}
+              ${scroll > 0 ? "" : "scroll"} 
+              `}
             onClick={closeMenu}
           />
         </div>

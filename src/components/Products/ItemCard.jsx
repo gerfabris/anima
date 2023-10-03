@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { MdAdsClick } from 'react-icons/md';
+import { MdAdsClick } from "react-icons/md";
 import "./ItemCard.css";
 
 export const ItemCard = ({ service, index, onClick }) => {
@@ -23,15 +23,17 @@ export const ItemCard = ({ service, index, onClick }) => {
           <img src={service.image} alt="" className="card__image" />
         </div>
         <div className="card__content-click">
-          <MdAdsClick className="click"/>
+          <MdAdsClick className="click" />
         </div>
       </div>
       <div className="card__back">
         <div className="card__content">
           <p className="card__content-description">{service.description}</p>
-          <button className="card__content-button" type="submit">
-            Contratar
-          </button>
+          <a href="https://wa.link/oi5ntb" target="_blank">
+            <button className="card__content-button" type="submit">
+              ¡Lo quiero!
+            </button>
+          </a>
         </div>
       </div>
     </article>
