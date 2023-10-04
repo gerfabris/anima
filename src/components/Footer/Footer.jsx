@@ -36,7 +36,7 @@ export const Footer = () => {
               <p className="footer__container__div__section-p"> Portfolio </p>
             </NavLink>
             <NavLink to={"/contact"}>
-              <p className="footer__container__div__section-p"> Contacto </p>
+              <p className="footer__container__div__section-p"> Charlemos </p>
             </NavLink>
           </div>
           <div className="footer__container__div footer__container__div-imagine"></div>

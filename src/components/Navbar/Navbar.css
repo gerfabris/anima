@@ -140,6 +140,9 @@
   .navmenu{
     display: none;
   }
+  .navmenu.scroll{
+    display: none;
+  }
   .navmenu.open{
     position: fixed;
     display: flex;

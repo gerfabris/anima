@@ -1,5 +1,7 @@
 #about{
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     width: 100%;
     min-width: 100%;
@@ -7,96 +9,230 @@
     background-color: #F9EDE2;
     margin-bottom: 5em;
 }
+/* Container About */
 .container-about{
     display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
     flex-direction: row; 
-    align-items: center;
     height: 100%;
-    width: 100%;
+    width: 90%;
     max-width: 100%;
     margin-top: 2em;    
     background-color: #F9EDE2;   
 }
-.contendedor-p{
+.container-about-sections{
     display: flex;
     flex-direction: column;    
-    width: 60%;
-    text-align: justify;    
+    width: 50%;
     margin-right: 1.5em;
     margin-left: 1.5em;
-    font-family: 'ITC Avant Garde Gothic Std', sans-serif;
-    opacity: 0;
+    text-align: left;    
+    font-family: 'ITC', sans-serif;
     animation: fadeInLeft 1s 1.5s;
     animation-fill-mode: forwards; 
+    opacity: 0;
+}
+/* Section Welcome */
+.container-welcome-about{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+.title-welcome-about{
+    margin-bottom: 1.5em;
+    text-align: left;
+}
+.paragraph-welcome-about{
+    text-align: left;
+    color: #558FA6; 
+    margin-bottom: 1.5em;
+    font-family: 'ITC-regular', sans-serif;
+}
+/* Section Hello */
+.container-hello-about{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 1em;
+    margin-bottom: 2em;
 }
 .h3 {
-    margin-left: 1rem;
-    margin-right: 1rem;
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: left;      
     color: #558FA6; 
-    font-family: 'ITC Avant Garde Gothic Std', sans-serif;
+    font-family: 'ITC', sans-serif;
+    font-weight: bold;
 }
-.h3-chero{
+.h3-cherolina{
     font-size: 5rem; 
     text-align: left;      
     color: #558FA6; 
     font-family:'Cherolina', sans-serif;
     font-weight: 800;
+    margin-left: .5em;
+    margin-bottom: 1em;
 }
-.p{
+.paragraph-hello{
+    margin-bottom: 1.5rem;
     color: #558FA6;
-    margin: 0.5rem;
+    font-family: 'ITC-regular', sans-serif;
+    text-align: left;
 }
-.contenedor-imagenes{
+/* Section Images */
+.container-images-about{
     display: flex;
     width: 40%;
-    height: 100%;    
+    height: 100%;
+    height: 540px;
     flex-direction: row;
     margin: 0;
     opacity: 0;
     animation: fadeInRight 1s 1.5s;
     animation-fill-mode: forwards;
+    position: relative;
 }
-.contenedor-img{
-    height: 100%;   
-    min-height: 100%; 
+.container-image-about{
+    width: 200px;   
+    height: 320px;   
+    border: 3px solid #558FA6;
 }
-.imagen{      
-    max-width: 90%;
-    max-height: 90%;
+.container-image-about:nth-child(1){
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    z-index: 2;
 }
-.contenedor-logos{
-    flex-direction: column;     
-    padding-top: 1rem;
-    padding-bottom: 1rem;   
+.container-image-about:nth-child(2){
+    position: absolute;
+    right: 20%;
+    top: 0;
+    z-index: 1;
 }
-.logos{
-    max-height: 6rem;
-    max-width: 6rem;
+.container-image-about:nth-child(3){
+    position: absolute;
+    right: 15%;
+    bottom: 0;
+    z-index: 3;
+}
+.image-about{      
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* Section points */
+.container-about-points{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+    width: 90%;
+    font-family: 'ITC', sans-serif;
+    animation: fadeInLeft 1s 1.5s;
+    animation-fill-mode: forwards; 
+    opacity: 0;
+    max-width: 1200px;
+}
+.container-points{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    max-width: 920px;
+    align-items: center;
+}
+.points-paragraph{
+    margin-bottom: 1.5rem;
+    color: #558FA6;
+    font-family: 'ITC-regular', sans-serif;
+    text-align: left;
+    max-width: 75%;
+}
+.container-points:nth-child(1){
+    justify-content: flex-start;
+}
+.container-points:nth-child(2){
+    justify-content: flex-end;
+}
+.container-points:nth-child(3){
+    justify-content: flex-start;
+}
+.container-points:nth-child(4){
+    justify-content: flex-end;
+}
+.container-points:nth-child(5){
+    justify-content: flex-start;
+}
+.container-points:nth-child(6){
+    justify-content: flex-end;
+}
+.container-points:nth-child(7){
+    justify-content: flex-start;
+}
+/* section thanks */
+.container-thanks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 420px;
+    width: 90%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.thanks-paragraph{
+    color: #558FA6;
+    font-family: 'ITC-regular', sans-serif;
+    text-align: left;
 }
 @media screen and (max-width:1200px) {
     .container-about{
         flex-direction: column;
     }
-    .contendedor-p{
-        width: 90%;
+    .container-about-sections{
+        width: 95%;
         margin-bottom: 2em;
     }
-    .contenedor-imagenes{
+    /* section welcome */
+    .container-welcome-about{
         width: 90%;
+        align-items: center;
+        justify-content: center;
+    }
+    /* section hello */
+    .container-hello-about{
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+    }
+    /* container images */
+    .container-images-about{
+        width: 90%;
+        height: auto;
+        position: inherit;
+        display: flex;
         flex-direction: column;
-    }
-    .contenedor-logos{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        align-items: center;
         justify-content: center;
+        align-items: center;
     }
-    .contenedor-img{
+    .container-image-about{
         display: flex;
         justify-content: center;
         align-items: center;
+        width: 90%;   
+        height: 100%;
+        max-width: 300px;
+    }
+    .container-image-about:nth-child(1){
+        position: inherit;
+    }
+    .container-image-about:nth-child(2){
+        display: none;
+    }
+    .container-image-about:nth-child(3){
+        display: none;
     }
 }

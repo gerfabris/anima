@@ -22,14 +22,14 @@ export const SwiperServices = ( {services} ) =>{
         },
         navigation: true,
         grabCursor: true,
-        centeredSlides: true,
+        centeredSlides: false,
         loop: true,
         modules: [Autoplay, Pagination, Navigation],
     };
     
     // Definir tus media queries (ajusta los valores según tus necesidades)
-    const mediaQuerySmall = '(max-width: 600px)';
-    const mediaQueryMedium = '(min-width: 601px) and (max-width: 1200px)';
+    const mediaQuerySmall = '(max-width: 900px)';
+    const mediaQueryMedium = '(min-width: 901px) and (max-width: 1200px)';
     const mediaQueryLarge = '(min-width: 1201px)';
 
     // Añadir las clases correspondientes según el tamaño de la pantalla

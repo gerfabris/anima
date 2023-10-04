@@ -34,18 +34,18 @@ const Navbar = () => {
               Inicio
             </NavLink>
             <NavLink
+              to="/about"
+              className="navlink"
+              onClick={handleNavlinkClick}
+            >
+              Conoceme
+            </NavLink>
+            <NavLink
               to="/products"
               className="navlink"
               onClick={handleNavlinkClick}
             >
               Servicios
-            </NavLink>
-            <NavLink
-              to="/about"
-              className="navlink"
-              onClick={handleNavlinkClick}
-            >
-              Sobre Anima
             </NavLink>
             <NavLink
               to="/portfolio"

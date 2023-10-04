@@ -8,7 +8,7 @@
     justify-content: flex-end;
     align-items: center;
     background-color: #F9EDE2 ;
-    font-family: 'ITC Avant Garde Gothic Std', sans-serif; 
+    font-family: 'ITC-regular', sans-serif; 
     font-size: 1.1rem;
     overflow: hidden;
     font-style: normal;
@@ -38,6 +38,7 @@
     font-size: 4rem;
     opacity: 0;
     animation: backInRight 2s 2s forwards;
+    font-family: 'ITC Avant Garde Gothic Std', sans-serif; 
 }
 .title-span{
     display: inline-block;
@@ -60,8 +61,8 @@
 }
 .slogan{
     width: 80%;
-    font-size: 2rem;
-    font-weight: 600;
+    font-size: 1.8rem;
+    font-weight: 400;
     /* effect text slogan */
     transform: scale(0.94);
     animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
