@@ -99,7 +99,8 @@
 .container-image-about{
     width: 200px;   
     height: 320px;   
-    border: 3px solid #558FA6;
+    /* border: 3px solid #558FA6; */
+    border: 4px outset #023c53
 }
 .container-image-about:nth-child(1){
     position: absolute;
