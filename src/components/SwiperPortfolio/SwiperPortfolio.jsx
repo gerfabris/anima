@@ -54,10 +54,10 @@ export const SwiperPortfolio = ({ portfolio }) => {
         swiperParams.slidesPerView = 1;
     } else if (window.matchMedia(mediaQueryMedium).matches) {
         swiperClasses += ' swiper-medium';
-        swiperParams.slidesPerView = 2;
+        swiperParams.slidesPerView = 1;
     } else if (window.matchMedia(mediaQueryLarge).matches) {
         swiperClasses += ' swiper-large';
-        swiperParams.slidesPerView = 3;
+        swiperParams.slidesPerView = 1;
     }
     
     // ---
