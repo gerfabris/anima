@@ -3,7 +3,7 @@
     margin-top: 2em;
     width: 90%;
     max-width: 1400px;
-    padding-bottom: 2em;
+    padding-bottom: 5em;
 }
 .swiper-portfolio .swiper-wrapper{
     margin-bottom: 2em;
@@ -31,6 +31,9 @@
     }
 }
 @media screen and (max-width:750px){
+    .swiper-portfolio{
+        padding-bottom: 3em;
+    }
     .swiper-portfolio .cardporfolio-container-image{
         width: 25em;
         height: 20em;
@@ -38,7 +41,7 @@
 }
 @media screen and (max-width:620px){
     .swiper-portfolio{
-        padding-bottom: 0em;
+        padding-bottom: 2em;
     }
     .swiper-portfolio .cardporfolio-container-image{
         width: 20em;
@@ -46,6 +49,10 @@
     }
 }
 @media screen and (max-width:520px){
+    .swiper-portfolio .cardportfolio{
+        width: 15rem;
+        height: 15rem;
+    }
     .swiper-portfolio .cardporfolio-container-image{
         width: 15rem;
         height: 15rem;
