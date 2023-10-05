@@ -56,7 +56,6 @@
     height: 30%;
     max-width: 6em;
 }
-
 /* -- media queries -- */
 @media screen and (max-width:920px){
     .article-SwiperServices .swiper{

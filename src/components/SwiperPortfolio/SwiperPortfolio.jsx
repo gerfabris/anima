@@ -27,7 +27,7 @@ export const SwiperPortfolio = ({ portfolio }) => {
   /* --- */
       //Swiper Params
       const swiperParams = {
-    /*     autoplay: {
+/*         autoplay: {
             delay: 10000,
             disableOnInteraction: true,
         }, */
@@ -38,7 +38,15 @@ export const SwiperPortfolio = ({ portfolio }) => {
         grabCursor: true,
         centeredSlides: false,
         loop: true,
-        modules: [Autoplay, Pagination, Navigation],
+        effect: "coverflow",
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        },
+        modules: [Autoplay, Pagination, Navigation, EffectCoverflow],
     };
     
     // Definir tus media queries (ajusta los valores según tus necesidades)
