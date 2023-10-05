@@ -18,22 +18,9 @@ export const Portfolio = () => {
       <h2 className="portfolio__title">
         Portfo<span>lio</span>
       </h2>
-
-      <div className="portfolio-container">
-        <div className="container-content">
-          <h3 className="content-title">
-            Redes sociales
-          </h3>
-          <hr className="content-hr" />
-        </div>
-        <div className="container-swiper">
-          <SwiperPortfolio portfolio={portfolioRedes} />
-        </div>
-      </div>
       <div className="portfolio-container">
         <div className="container-content">
           <h3 className="content-title">Logos </h3>
-          <hr className="content-hr" />
         </div>
         <div className="container-swiper">
           <SwiperPortfolio portfolio={portfolioLogos} />
@@ -41,8 +28,17 @@ export const Portfolio = () => {
       </div>
       <div className="portfolio-container">
         <div className="container-content">
+          <h3 className="content-title">
+            Redes sociales
+          </h3>
+        </div>
+        <div className="container-swiper">
+          <SwiperPortfolio portfolio={portfolioRedes} />
+        </div>
+      </div>
+      <div className="portfolio-container">
+        <div className="container-content">
           <h3 className="content-title"> Otros </h3>
-          <hr className="content-hr" />
         </div>
         <div className="container-swiper">
           <SwiperPortfolio portfolio={portfolioOtros} />

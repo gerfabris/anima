@@ -1,10 +1,17 @@
 import "./About.css";
 
 export const About = () => {
-  const ImageAbout1 = "https://drive.google.com/uc?export=view&id=1oZqAN6lLQlGFDsmpfecuryGXOdxkqmpx";
-  const ImageAbout2 = "https://drive.google.com/uc?export=view&id=1oZqAN6lLQlGFDsmpfecuryGXOdxkqmpx";
-  const ImageAbout3 = "https://drive.google.com/uc?export=view&id=1oZqAN6lLQlGFDsmpfecuryGXOdxkqmpx";
-
+  const ImageAbout1 = "https://drive.google.com/uc?export=view&id=1dPPfGUaYwqwVncSfiE5LIvBl3Te0qVim";
+  const ImageAbout2 = "https://drive.google.com/uc?export=view&id=1HWSKJOzBK73uJlXJEXAeRpJnh8UvdG6N";
+  const ImageAbout3 = "https://drive.google.com/uc?export=view&id=1E4BtFkMXC1uCEVf9DWNO4mCe-LVGqfDQ";
+  const ImageAbout4 = "https://drive.google.com/uc?export=view&id=16lAqzCwT6WuMp6dGXw7x00GZRBypdinR";
+  const number1 = "https://drive.google.com/uc?export=view&id=1PPpAKYLLnC2JImLSdZQ-goCGn8ceTf-I"
+  const number2 = "https://drive.google.com/uc?export=view&id=1OjW-D1W3RJO6K-e9yEcjoyvg-Qwpizsk"
+  const number3 = "https://drive.google.com/uc?export=view&id=1zyESCm2YGKHhwVzhzn9WJxrHZvRBNysT"
+  const number4 = "https://drive.google.com/uc?export=view&id=1Jg_IcHIdZh2qEYxOvt0SwfeXjh4p4VD7"
+  const number5 = "https://drive.google.com/uc?export=view&id=1qgbcI6iADbeaiIJX3BIb8ifjb_Z6apzi"
+  const number6 = "https://drive.google.com/uc?export=view&id=1eY4IPQYqXcoakez4urlmgcUFIliJYmID"
+  const number7 = "https://drive.google.com/uc?export=view&id=1vU3eWNHCjHzG13KQSP2QLRvyXvS_ksHE"
   return (
     <section id="about">
       <div className="container-about">
@@ -67,11 +74,17 @@ export const About = () => {
           <div className="container-image-about">
             <img className="image-about" src={ImageAbout3} alt="foto-acerca-de" />
           </div>
+          <div className="container-image-about">
+            <img className="image-about" src={ImageAbout4} alt="foto-acerca-de" />
+          </div>
         </div>
       </div>
       {/* section points */}
       <div className="container-about-points">
         <div className="container-points">
+          <div className="points-container-number">
+            <img className="image-number" src={number1} alt="poinst number" />
+          </div>
           <p className="points-paragraph">
             Estudié Diseño Industrial y Diseño Gráfico, y de esto último dí clases. 
             También soy Community Manager entre otras cosas más que me nutren en el 
@@ -79,6 +92,9 @@ export const About = () => {
           </p>
         </div>
         <div className="container-points">
+          <div className="points-container-number">
+            <img className="image-number" src={number2} alt="poinst number" />
+          </div>
           <p className="points-paragraph">
             Hoy en día, emprendo de forma independiente haciendo lo que me gusta. 
             Ha sido un camino de grandes aprendizajes que no descarto ninguna de sus 
@@ -88,12 +104,18 @@ export const About = () => {
           </p>
         </div>
         <div className="container-points">
+          <div className="points-container-number">
+            <img className="image-number" src={number3} alt="poinst number" />
+          </div>
           <p className="points-paragraph">
             Tengo emprendimientos de: productos y servicios además de Anima. Sé estar 
             en ambos lados de la vereda.
           </p>
         </div>
         <div className="container-points">
+          <div className="points-container-number">
+            <img className="image-number" src={number4} alt="poinst number" />
+          </div>
           <p className="points-paragraph">
             Me apasiona conocer más sobre optimizar procesos y recursos para emprender 
             mejor que como lo hice cuando empezaba, y que eso pueda ayudar a quienes 
@@ -102,6 +124,9 @@ export const About = () => {
           </p>
         </div>
         <div className="container-points">
+          <div className="points-container-number">
+            <img className="image-number" src={number5} alt="poinst number" />
+          </div>
           <p className="points-paragraph">
             Vivo en un balneario de Colonia rodeado de bosque, y con plena conexión de 
             la naturaleza. Vivir acá me ha enseñado a bajar los ritmos, respetar mis 
@@ -110,6 +135,9 @@ export const About = () => {
           </p>
         </div>
         <div className="container-points">
+          <div className="points-container-number">
+            <img className="image-number" src={number6} alt="poinst number" />
+          </div>
           <p className="points-paragraph">
             Practico yoga hace un par de años, y amo hacer ejercicio físico: mi 
             top 1 es natación. Acá he encontrado mejores ideas para mis negocios 
@@ -118,6 +146,9 @@ export const About = () => {
           </p>
         </div>
         <div className="container-points">
+          <div className="points-container-number">
+            <img className="image-number" src={number7} alt="poinst number" />
+          </div>
           <p className="points-paragraph">
             Si me preguntás cómo me veo en un futuro, te diría que más espontánea, 
             sacando un pasaje con el primer destino que aparezca, o enganchando la 

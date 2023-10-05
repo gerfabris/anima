@@ -7,7 +7,7 @@ import "swiper/css/pagination";
 /* css */
 import "./SwiperPortfolio.css";
 // import required modules
-import { EffectCoverflow, Pagination } from "swiper";
+import { EffectCoverflow, Pagination , Autoplay , Navigation } from "swiper";
 
 export const SwiperPortfolio = ({ portfolio }) => {
  /* -- preload images */
@@ -25,37 +25,56 @@ export const SwiperPortfolio = ({ portfolio }) => {
 
   }, [portfolio]);
   /* --- */
+      //Swiper Params
+      const swiperParams = {
+        autoplay: {
+            delay: 10000,
+            disableOnInteraction: true,
+        },
+        pagination: {
+            clickable: true,
+        },
+        navigation: true,
+        grabCursor: true,
+        centeredSlides: false,
+        loop: true,
+        modules: [Autoplay, Pagination, Navigation],
+    };
+    
+    // Definir tus media queries (ajusta los valores según tus necesidades)
+    const mediaQuerySmall = '(max-width: 900px)';
+    const mediaQueryMedium = '(min-width: 901px) and (max-width: 1200px)';
+    const mediaQueryLarge = '(min-width: 1201px)';
+
+    // Añadir las clases correspondientes según el tamaño de la pantalla
+    let swiperClasses = 'mySwiper swiper-portfolio';
+
+    if (window.matchMedia(mediaQuerySmall).matches) {
+        swiperClasses += ' swiper-small';
+        swiperParams.slidesPerView = 1;
+    } else if (window.matchMedia(mediaQueryMedium).matches) {
+        swiperClasses += ' swiper-medium';
+        swiperParams.slidesPerView = 2;
+    } else if (window.matchMedia(mediaQueryLarge).matches) {
+        swiperClasses += ' swiper-large';
+        swiperParams.slidesPerView = 3;
+    }
+    
+    // ---
   return (
     <Swiper
-      effect={"coverflow"}
-      grabCursor={true}
-      centeredSlides={true}
-      slidesPerView={"auto"}
-      coverflowEffect={{
-        rotate: 50,
-        stretch: 0,
-        depth: 100,
-        modifier: 1,
-        slideShadows: true,
-      }}
-      pagination={true}
-      modules={[EffectCoverflow, Pagination]}
-      className="mySwiper"
+      {...swiperParams}
+      className= {swiperClasses}
     >
       {portfolio.map((itemportfolio) => (
         <SwiperSlide className="cardportfolio" key={itemportfolio.id}>
-          <img
-            src={itemportfolio.image}
-            alt={itemportfolio.title}
-            className="cardportfolio-image"
-          />
-          <figcaption className="cardportfolio-body">
-            <h2 className="cardportfolio-title"> {itemportfolio.title} </h2>
-            <p className="cardportfolio-description">
-              {" "}
-              {itemportfolio.description}{" "}
-            </p>
-          </figcaption>
+          <div className="cardporfolio-container-image">
+            <img
+              src={itemportfolio.image}
+              alt={itemportfolio.title}
+              className="cardportfolio-image"
+            />
+          </div>
         </SwiperSlide>
       ))}
     </Swiper>
