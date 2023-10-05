@@ -11,12 +11,21 @@
     width: 15rem;
     height: 20rem;
 }
-.swiper-portfolio .container-image{
+.swiper-portfolio .cardporfolio-container-image{
+    width: 15em;
+    height: 20em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-portfolio .cardportfolio-image{
     width: 100%;
     height: 100%;
 }
-.swiper-portfolio .cardportfolio-image{
-    object-fit: cover;
-}
 
+@media screen and (max-width:920px){
+    .swiper-portfolio .swiper{
+        width: 95%;
+    }
+}
 

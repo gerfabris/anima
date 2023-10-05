@@ -58,6 +58,11 @@
 }
 
 /* -- media queries -- */
+@media screen and (max-width:920px){
+    .article-SwiperServices .swiper{
+        width: 95%;
+    }
+}
 @media screen and (max-width:520px){
     .article-SwiperServices .swiper-button-prev{
         top: 50%;

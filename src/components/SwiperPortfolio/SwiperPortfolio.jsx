@@ -27,10 +27,10 @@ export const SwiperPortfolio = ({ portfolio }) => {
   /* --- */
       //Swiper Params
       const swiperParams = {
-        autoplay: {
+    /*     autoplay: {
             delay: 10000,
             disableOnInteraction: true,
-        },
+        }, */
         pagination: {
             clickable: true,
         },
