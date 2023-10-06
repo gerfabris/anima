@@ -12,7 +12,7 @@ export const dataPorfolio = [
     title: "Karla Yaben",
     description: "",
     image:
-      "https://drive.google.com/uc?export=view&id=1tvHUvkwOYTZWldYNMDgOzc2jt_ZPkPro",
+      "https://drive.google.com/uc?export=view&id=12sQ6odK1wT3Ibfy1r5texcVsvJb1p3J1",
     category: "logos",
   },
   {
@@ -20,7 +20,7 @@ export const dataPorfolio = [
     title: "Licenciada Andrea Seoane",
     description: "",
     image:
-      "https://drive.google.com/uc?export=view&id=1kfa-M17JUicYEhVQN_fu7BAwjriuYIe",
+      "https://drive.google.com/uc?export=view&id=1kfa-M17JUicYEhVQN_fu7BAwjriuYIe2",
     category: "logos",
   },
   {

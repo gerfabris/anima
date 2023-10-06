@@ -29,7 +29,7 @@ body{
 }
 @font-face {
   font-family: 'ITC-regular';
-  src: url('../fonts/ITCAvantGardeStd-XLt-Md.otf') format('opentype');
+  src: url('../fonts/ITCAvantGardeStd-XLt.otf') format('opentype');
 }
 a {
   font-weight: 500;
