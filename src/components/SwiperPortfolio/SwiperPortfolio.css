@@ -1,20 +1,20 @@
 .swiper-portfolio{
     margin-bottom: 2em;
-    margin-top: 2em;
-    width: 90%;
+/*     margin-top: 2em;
+ */    width: 70%;
     max-width: 1400px;
-    padding-bottom: 5em;
-}
+/*     padding-bottom: 5em;
+ */}
 .swiper-portfolio .swiper-wrapper{
     margin-bottom: 2em;
 }
 .swiper-portfolio .cardportfolio{
-    width: 20rem;
-    height: 15rem;
+    width: 25em;
+    height: 22em;
 }
 .swiper-portfolio .cardporfolio-container-image{
-    width: 30em;
-    height: 25em;
+    width: 25em;
+    height: 22em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,14 +26,17 @@
 }
 
 @media screen and (max-width:920px){
+    .swiper-portfolio{
+        width: 95%;
+    }
     .swiper-portfolio .swiper{
         width: 95%;
     }
 }
 @media screen and (max-width:750px){
     .swiper-portfolio{
-        padding-bottom: 3em;
-    }
+/*         padding-bottom: 3em;
+ */    }
     .swiper-portfolio .cardporfolio-container-image{
         width: 25em;
         height: 20em;
@@ -41,21 +44,36 @@
 }
 @media screen and (max-width:620px){
     .swiper-portfolio{
-        padding-bottom: 2em;
-    }
+/*         padding-bottom: 2em;
+ */    }
     .swiper-portfolio .cardporfolio-container-image{
         width: 20em;
         height: 20em;
     }
 }
 @media screen and (max-width:520px){
+    .swiper-portfolio{
+        width: 95%;
+        padding-bottom: 0em;
+    }
     .swiper-portfolio .cardportfolio{
-        width: 15rem;
-        height: 15rem;
+        width: 20em;
+        height: 12em;
     }
     .swiper-portfolio .cardporfolio-container-image{
-        width: 15rem;
-        height: 15rem;
+        height: 10em;
+    }
+    .swiper-portfolio .cardportfolio-image{
+        max-width: 300px;
+    }
+    .swiper-portfolio .swiper-button-prev{
+        top: 50%;
+    }
+    .swiper-portfolio .swiper-button-next{
+        top: 50%;
+    }
+    .swiper-portfolio .swiper-pagination{
+        display: block;
     }
 }
 

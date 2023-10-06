@@ -19,8 +19,8 @@
 /* --- title --- */
 .container__products-logo {
     text-align: center;
-    font-size: 3em;
-    margin-bottom: .5em;
+    font-size: 2em;
+    margin-bottom: 1em;
     color: #558FA6;
 }
 .container__products-logo span {

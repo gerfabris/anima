@@ -62,7 +62,8 @@
     flex-direction: column;
     justify-content: flex-start;
     flex-wrap: wrap;
-    align-items: center;       
+    align-items: center;      
+    margin-top: 2em; 
 }
 .socialMedia__container{
     height: 100%;
