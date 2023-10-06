@@ -88,6 +88,7 @@
     display: flex;
     width: 40%;
     height: 100%;
+    width: 480px;
     height: 580px;
     flex-direction: row;
     margin: 0;
@@ -108,7 +109,7 @@
 }
 .container-image-about:nth-child(2){
     position: absolute;
-    right: 20%;
+    right: 17%;
     top: 0;
     z-index: 1;
 }

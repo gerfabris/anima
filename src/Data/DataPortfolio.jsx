@@ -1,70 +1,134 @@
 export const dataPorfolio = [
   {
     id: 1,
-    title: "Nutriendo",
+    title: "Plana",
     description: "",
     image:
-      "https://drive.google.com/uc?export=view&id=1MjW5FZo5c59J-8MCSFhHUiH1ZmLxihEh",
+      "https://drive.google.com/uc?export=view&id=1tvHUvkwOYTZWldYNMDgOzc2jt_ZPkPro",
     category: "logos",
   },
   {
     id: 2,
-    title: "Plana",
+    title: "Karla Yaben",
     description: "",
     image:
-      "https://drive.google.com/uc?export=view&id=17D6pex59x94iWz3bu84r4j4b6GYX-05l",
+      "https://drive.google.com/uc?export=view&id=1tvHUvkwOYTZWldYNMDgOzc2jt_ZPkPro",
     category: "logos",
   },
   {
     id: 3,
-    title: "NUDM",
+    title: "Licenciada Andrea Seoane",
     description: "",
     image:
-      "https://drive.google.com/uc?export=view&id=1_7sq8sfReIQ-REIbK7q6ZWvk8DuYhqdd",
+      "https://drive.google.com/uc?export=view&id=1kfa-M17JUicYEhVQN_fu7BAwjriuYIe",
     category: "logos",
   },
   {
     id: 4,
-    title: "Mi Julián",
+    title: "Boutique Gaman",
     description: "",
     image:
-      "https://drive.google.com/uc?export=view&id=1O1-Hn8N2ozOjNRiqHP-_59AFDk9Xe4GQ",
+      "https://drive.google.com/uc?export=view&id=1OivORfmCWfewBIzfXxgDSgb-GYG5epF-",
     category: "logos",
   },
   {
     id: 5,
-    title: "El Martillo",
+    title: "Cabaña Odín",
     description: "",
     image:
-      "https://drive.google.com/uc?export=view&id=1bU9cBLgAmwiSnjE19tH5wC_Lx357deId",
+      "https://drive.google.com/uc?export=view&id=1hj1S8x3JYWNa41tnXo5_IXC5rbN8MK2C",
     category: "logos",
   },
   {
     id: 6,
-    title: "Shine UY",
+    title: "Endógena Autoras",
     description: "",
     image:
-      "https://drive.google.com/uc?export=view&id=11kNaanoTwNPEMC2xy5mhHx4Gj_zOXhV4",
+      "https://drive.google.com/uc?export=view&id=1kwjFMbxMGM2iJN4jKp8czNiIUJsioIzh",
     category: "logos",
   },
   {
     id: 7,
-    title: "La Gota",
+    title: "Out of the Box",
     description: "",
     image:
-      "https://drive.google.com/uc?export=view&id=1pHRq3uKGZpvN1fSnWCMr6ZVa7N6DJXt1",
+      "https://drive.google.com/uc?export=view&id=1brhmEzgoVRxsqM8B-Q9fjJuExi5iDoEl",
     category: "logos",
   },
   {
     id: 8,
-    title: "Cabaña Treinta y Tres",
+    title: "Mi Julián Artesanías",
     description: "",
     image:
-      "https://drive.google.com/uc?export=view&id=1beMi-RkyxMBt9J-Ys0T-1uSwJXBd6Ynj",
+      "https://drive.google.com/uc?export=view&id=1yVY1_kN2nOlM5gpBhqUKpRBAfq3t4wEa",
     category: "logos",
   },
   {
     id: 9,
+    title: "La Gota",
+    description: "",
+    image:
+      "https://drive.google.com/uc?export=view&id=1tGaQFW1jJxitX26GJwaHaYoFM1lUQ58q",
+    category: "logos",
+  },
+  {
+    id: 10,
+    title: "Cabaña El Martillo",
+    description: "",
+    image:
+      "https://drive.google.com/uc?export=view&id=1bAnV9CbBAD3t56BkwDuu7gPRBizoHz10",
+    category: "logos",
+  },
+  {
+    id: 11,
+    title: "Cabaña Treinta y Tres",
+    description: "",
+    image:
+      "https://drive.google.com/uc?export=view&id=1spSCG3QDJqbWQbEWgIE0Fe68SJ8UrVx-",
+    category: "logos",
+  },
+  {
+    id: 12,
+    title: "NUDM",
+    description: "",
+    image:
+      "https://drive.google.com/uc?export=view&id=1-1Yd4zWN3vIzlPgPgTIjsCUp1-_YGE2P",
+    category: "logos",
+  },
+  {
+    id: 13,
+    title: "Dejá tu huella",
+    description: "",
+    image:
+      "https://drive.google.com/uc?export=view&id=1UfZm4TTIGOn5tO6du3tSmRQaCJwwuKZu",
+    category: "logos",
+  },
+  {
+    id: 14,
+    title: "Crila Designs",
+    description: "",
+    image:
+      "https://drive.google.com/uc?export=view&id=1nbj6fG9fStoFZ0QxuN8rEqM0Y01r2JwR",
+    category: "logos",
+  },
+  {
+    id: 15,
+    title: "Shineuy",
+    description: "",
+    image:
+      "https://drive.google.com/uc?export=view&id=1-hCQWlyANc5UHduIyGpwrT-1m3F8H00T",
+    category: "logos",
+  },
+  {
+    id: 16,
+    title: "Nutriendo",
+    description: "",
+    image:
+      "https://drive.google.com/uc?export=view&id=1alM5W2vIgNgoPbh2rOK8BkiZdx7NSb8w",
+    category: "logos",
+  },
+  {
+    id: 17,
     title: "",
     description: "",
     image:
@@ -72,7 +136,7 @@ export const dataPorfolio = [
     category: "otros",
   },
   {
-    id: 10,
+    id: 18,
     title: "",
     description: "",
     image:
@@ -80,7 +144,7 @@ export const dataPorfolio = [
     category: "otros",
   },
   {
-    id: 11,
+    id: 19,
     title: "",
     description: "",
     image:
@@ -88,7 +152,7 @@ export const dataPorfolio = [
     category: "otros",
   },
   {
-    id: 12,
+    id: 20,
     title: "",
     description: "",
     image:
@@ -96,7 +160,7 @@ export const dataPorfolio = [
     category: "otros",
   },
   {
-    id: 13,
+    id: 21,
     title: "",
     description: "",
     image:
@@ -104,7 +168,7 @@ export const dataPorfolio = [
     category: "redes",
   },
   {
-    id: 14,
+    id: 22,
     title: "",
     description: "",
     image:
@@ -112,7 +176,7 @@ export const dataPorfolio = [
     category: "redes",
   },
   {
-    id: 15,
+    id: 23,
     title: "",
     description: "",
     image:
@@ -120,7 +184,7 @@ export const dataPorfolio = [
     category: "redes",
   },
   {
-    id: 16,
+    id: 24,
     title: "",
     description: "",
     image:
@@ -128,7 +192,7 @@ export const dataPorfolio = [
     category: "redes",
   },
   {
-    id: 17,
+    id: 25,
     title: "",
     description: "",
     image:
@@ -136,7 +200,7 @@ export const dataPorfolio = [
     category: "redes",
   },
   {
-    id: 18,
+    id: 26,
     title: "MJ",
     description: "",
     image:
@@ -144,7 +208,7 @@ export const dataPorfolio = [
     category: "logos",
   },
   {
-    id: 19,
+    id: 27,
     title: "Lic. Andrea Soane",
     description: "",
     image:
@@ -152,7 +216,7 @@ export const dataPorfolio = [
     category: "logos",
   },
   {
-    id: 20,
+    id: 28,
     title: "Endógena",
     description: "",
     image:
@@ -160,7 +224,7 @@ export const dataPorfolio = [
     category: "logos",
   },
   {
-    id: 21,
+    id: 29,
     title: "Out of the Box",
     description: "",
     image:
@@ -168,7 +232,7 @@ export const dataPorfolio = [
     category: "logos",
   },
   {
-    id: 22,
+    id: 30,
     title: "",
     description: "",
     image:
@@ -176,7 +240,7 @@ export const dataPorfolio = [
     category: "redes",
   },
   {
-    id: 23,
+    id: 31,
     title: "",
     description: "",
     image:
@@ -184,7 +248,7 @@ export const dataPorfolio = [
     category: "redes",
   },
   {
-    id: 24,
+    id: 32,
     title: "",
     description: "",
     image:
@@ -192,7 +256,7 @@ export const dataPorfolio = [
     category: "redes",
   },
   {
-    id: 25,
+    id: 33,
     title: "",
     description: "",
     image:
@@ -200,7 +264,7 @@ export const dataPorfolio = [
     category: "otros",
   },
   {
-    id: 26,
+    id: 34,
     title: "",
     description:
       "https://drive.google.com/uc?export=view&id=1cnVVoBw6CEp2595ozubTNDRJuXOYPt7f",
@@ -208,7 +272,7 @@ export const dataPorfolio = [
     category: "otros",
   },
   {
-    id: 27,
+    id: 35,
     title: "",
     description: "",
     image:
