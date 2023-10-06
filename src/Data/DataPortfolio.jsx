@@ -132,7 +132,7 @@ export const dataPorfolio = [
     title: "",
     description: "",
     image:
-      "https://drive.google.com/uc?export=view&id=1YXgzNWuvN-YnvWLDqUTXAA5YZhFSCUhq",
+      "https://drive.google.com/uc?export=view&id=1atLhEyimIXrGjUH6hlKrNFylnuylU7vq",
     category: "otros",
   },
   {
@@ -140,7 +140,7 @@ export const dataPorfolio = [
     title: "",
     description: "",
     image:
-      "https://drive.google.com/uc?export=view&id=1Oag6bJcIc0oJja_i63tj_7E_St_R14E9",
+      "https://drive.google.com/uc?export=view&id=1LWPvvo5oAZsxX4rlazXi4LdUTWZ5xLDG",
     category: "otros",
   },
   {
@@ -148,7 +148,7 @@ export const dataPorfolio = [
     title: "",
     description: "",
     image:
-      "https://drive.google.com/uc?export=view&id=1vTzcDeUhYbfQTI5JzqJ9823HzUwgHvCr",
+      "https://drive.google.com/uc?export=view&id=1rwn5tS1--wgPIFhC_TM9_feiE7d4k74M",
     category: "otros",
   },
   {
@@ -156,7 +156,7 @@ export const dataPorfolio = [
     title: "",
     description: "",
     image:
-      "https://drive.google.com/uc?export=view&id=1hqc_hCHQKX8E3k1xEe4dhN2PGxVR0xLz",
+      "https://drive.google.com/uc?export=view&id=1c_tQ_mxbnyd6ZilStGAHT5Lg_X0kDwTy",
     category: "otros",
   },
   {
@@ -164,7 +164,7 @@ export const dataPorfolio = [
     title: "",
     description: "",
     image:
-      "https://drive.google.com/uc?export=view&id=1Zrrw4NMN9sBjODWGEU272gbw3Bt4yr5z",
+      "https://drive.google.com/uc?export=view&id=1LPp7aZuYtvzGe8flO7rfvxIwKAQ7he6G",
     category: "redes",
   },
   {
@@ -172,7 +172,7 @@ export const dataPorfolio = [
     title: "",
     description: "",
     image:
-      "https://drive.google.com/uc?export=view&id=16w8pO4rPCnH2v9VLq70BCtLhSoCIrclA",
+      "https://drive.google.com/uc?export=view&id=1EIuiyMEo-QCXcGe5IVvhe4XB0BVztnKf",
     category: "redes",
   },
   {
@@ -180,7 +180,7 @@ export const dataPorfolio = [
     title: "",
     description: "",
     image:
-      "https://drive.google.com/uc?export=view&id=1Mq-p4WKQnBzogw2TnP9SOkhGEbYgrqMi",
+      "https://drive.google.com/uc?export=view&id=1PyyLxlStE0_WJJ6J4DcvY9FE5zGjm-8z",
     category: "redes",
   },
   {
@@ -188,7 +188,7 @@ export const dataPorfolio = [
     title: "",
     description: "",
     image:
-      "https://drive.google.com/uc?export=view&id=199I4RVm9VWpKuhYU2VeNA0TqsYZ1jLQS",
+      "https://drive.google.com/uc?export=view&id=1PolfLbkoFps0bHdE1x7_ltVW8HLyZcW1",
     category: "redes",
   },
   {
@@ -196,7 +196,7 @@ export const dataPorfolio = [
     title: "",
     description: "",
     image:
-      "https://drive.google.com/uc?export=view&id=1pwlJ6zisCjW-XbynYMaGESej1YMmKooN",
+      "https://drive.google.com/uc?export=view&id=1AekBD5c93fxXRq2WIIrNscx6KtVYQZlE",
     category: "redes",
   },
   {
@@ -236,7 +236,7 @@ export const dataPorfolio = [
     title: "",
     description: "",
     image:
-      "https://drive.google.com/uc?export=view&id=1dQeiuvk_XCGR0csGeUXx26JtUxwsFGQo",
+      "https://drive.google.com/uc?export=view&id=1AekBD5c93fxXRq2WIIrNscx6KtVYQZlE",
     category: "redes",
   },
   {
@@ -244,7 +244,7 @@ export const dataPorfolio = [
     title: "",
     description: "",
     image:
-      "https://drive.google.com/uc?export=view&id=1XMRw9Vf4HZ8fomhyEf_Ki67IH5GDp1xs",
+      "https://drive.google.com/uc?export=view&id=16ZAeOD_UYg4WCvbJsQpaF--xQohLMj7M",
     category: "redes",
   },
   {
@@ -252,7 +252,7 @@ export const dataPorfolio = [
     title: "",
     description: "",
     image:
-      "https://drive.google.com/uc?export=view&id=1xB1JxU3py0UoGSpxGorMRe6sHLOHQOPR",
+      "https://drive.google.com/uc?export=view&id=13ebeD346J7riL3cFHZrttYoJDwx2oHEq",
     category: "redes",
   },
   {
@@ -260,14 +260,14 @@ export const dataPorfolio = [
     title: "",
     description: "",
     image:
-      "https://drive.google.com/uc?export=view&id=1GAOzknlrxcZQ_ZNtHPK_IOx6ibArrFdN",
+      "https://drive.google.com/uc?export=view&id=1Ra1HvCJKc_KSfkhuIvtZoAvOCIfrebuE",
     category: "otros",
   },
   {
     id: 34,
     title: "",
     description:
-      "https://drive.google.com/uc?export=view&id=1cnVVoBw6CEp2595ozubTNDRJuXOYPt7f",
+      "https://drive.google.com/uc?export=view&id=1MDn7fOhQ-w7ULEMI8ERlMNssWCXaAT2z",
     image: "",
     category: "otros",
   },
@@ -276,7 +276,63 @@ export const dataPorfolio = [
     title: "",
     description: "",
     image:
-      "https://drive.google.com/uc?export=view&id=1gQgXkxUH0w7_-I0cAu3dJwhdP6EUi-g5",
+      "https://drive.google.com/uc?export=view&id=1YF5JKLHedvXyGBbNy0Ri2gkYH4FXAXrY",
+    category: "otros",
+  },
+  {
+    id: 36,
+    title: "",
+    description: "",
+    image:
+      "https://drive.google.com/uc?export=view&id=13ebeD346J7riL3cFHZrttYoJDwx2oHEq",
+    category: "redes",
+  },
+  {
+    id: 37,
+    title: "",
+    description: "",
+    image:
+      "https://drive.google.com/uc?export=view&id=1VXbvy8DuPbNptrPcJaErNWRldppYxVqs",
+    category: "redes",
+  },
+  {
+    id: 38,
+    title: "",
+    description: "",
+    image:
+      "https://drive.google.com/uc?export=view&id=1IO2nO6eoytA7zqjf3PVsPWOfSf7ZF95G",
+    category: "redes",
+  },
+  {
+    id: 39,
+    title: "",
+    description: "",
+    image:
+      "ttps://drive.google.com/uc?export=view&id=1eWSDA1J_VJopkVTNol4q9LiBzEfQXKDb",
+    category: "redes",
+  },
+  {
+    id: 40,
+    title: "",
+    description: "",
+    image:
+      "https://drive.google.com/uc?export=view&id=1hPk53Ex4K4uJedPI_ZX1DSePHtaEm0dE",
+    category: "redes",
+  },
+  {
+    id: 41,
+    title: "",
+    description: "",
+    image:
+      "https://drive.google.com/uc?export=view&id=1GXiZ3yobOyipeOUG3n73EP-6P1FNgPFB",
+    category: "otros",
+  },
+  {
+    id: 42,
+    title: "",
+    description: "",
+    image:
+      "https://drive.google.com/uc?export=view&id=10Rz_DWwkLzLhBqPpd7rOGiieShHtiCCO",
     category: "otros",
   },
 ];
