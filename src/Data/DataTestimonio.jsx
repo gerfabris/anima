@@ -10,7 +10,7 @@ export const dataTestimonios = [
     id: 2,
     cliente: "Eugenia - Endógena",
     mensaje:
-      "Creamos un logotipo que represente tu marca y refleje tus valores y guía de estilo para tu marca que incluye paleta de colores, tipografía, estilos de imagen y más..",
+      "El proceso del logo, todo un hito para quien emprende y desea transmitir su filosofía en él. Encontrarme con el perfil de Anima en Instagram fue nua de las cosas que más celebro. \nCami, quien lleva adelante el emprendimiento, te hace sentir a gusto y cómoda desde el minuto uno que se genera el contacto. \nLa info y la manera en que explica y detalla cada punto del proceso, hace que sea para una, más armónico y ordenado lo que quiere decir a través del logo. En definitiva, Cami logra captar la esencia. Asume la importancia que tiene cada proyecto. Eso hace que todo suceda sin fricciones.\n La charla y el intercambio son puntos súper destacados, eso hace que se llegue al producto final, adorando los resultados y por qué no, enamorándote de él.",
     servicioRealizado: "Creación de Logotipo.",
   },
   {

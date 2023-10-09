@@ -39,7 +39,7 @@ export const Home = () => {
             <hr className="magictext-hr" />
             <div className="container-slogan">
               <h3 className="slogan">
-                <span className="slogan-span">Diseñamos</span>
+                <span className="slogan-span">Diseñemos</span>
                 <span className="slogan-span">juntas</span>
                 <span className="slogan-span">soluciones</span>
               </h3>
