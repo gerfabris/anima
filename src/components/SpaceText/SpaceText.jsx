@@ -6,7 +6,10 @@ export const SpaceText = () => {
             <div className="container-spaceText">
                 <p className="paragraph-spaceText">
                     Dimos vida a la identidad de más de 20 marcas 
-                    y ya trabajamos con 31 marcas en sus redes 
+                    y
+                </p>
+                <p className="paragraph-spaceText">
+                    ya trabajamos con 31 marcas en sus redes 
                     sociales.
                 </p>
             </div>

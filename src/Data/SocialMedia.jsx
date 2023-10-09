@@ -35,7 +35,7 @@ export const SocialMedia = [
       </svg>
     ),
   },
-  {
+/*   {
     id: "facebook",
     href: "#",
     alt: "#",
@@ -51,5 +51,5 @@ export const SocialMedia = [
         />
       </svg>
     ),
-  },
+  }, */
 ];

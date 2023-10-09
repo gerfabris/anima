@@ -18,24 +18,6 @@ export const Links = [
     ),
   },
   {
-    to: "/products",
-    text: "Servicios",
-    svg: (
-      <svg
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M5.12634 17C5.04271 17.6571 5 18.325 5 19V21M5.12634 17C6.03384 9.86861 11.7594 4 20 4L19 8H16L17 10L15 12H11L13 14L12 16H8L5.12634 17Z"
-          fill="#8F8F8F"
-        />
-      </svg>
-    ),
-  },
-  {
     to: "/about",
     text: "Conoceme",
     svg: (
@@ -60,6 +42,24 @@ export const Links = [
           d="M14 8H10C9.5 8 9 8.5 9 9V13C9 13.5 9.5 14 10 14V20H14V14C14.5 14 15 13.5 15 13V9C15 8.5 14.5 8 14 8Z"
           fill="#8F8F8F"
           fillOpacity="0.6"
+        />
+      </svg>
+    ),
+  },  
+  {
+    to: "/products",
+    text: "Servicios",
+    svg: (
+      <svg
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M5.12634 17C5.04271 17.6571 5 18.325 5 19V21M5.12634 17C6.03384 9.86861 11.7594 4 20 4L19 8H16L17 10L15 12H11L13 14L12 16H8L5.12634 17Z"
+          fill="#8F8F8F"
         />
       </svg>
     ),
@@ -91,7 +91,7 @@ export const Links = [
   },
   {
     to: "/contact",
-    text: "Contactame",
+    text: "Charlemos",
     svg: (
       <svg
         width="24"
