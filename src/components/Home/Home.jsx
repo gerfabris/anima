@@ -12,7 +12,7 @@ export const Home = () => {
   const ilustration = new Image();
   const ilustrationMobile = new Image();
   ilustration.src =
-    "https://drive.google.com/uc?export=view&id=1oK9d5mrzehw8e6d4dMHUgUFKqSeAnZoo";
+    "https://drive.google.com/uc?export=view&id=1Vzqf4QQ46C5kwYsK2vgJR2A55tCUz1fG";
   ilustrationMobile.src =
     "https://drive.google.com/uc?export=view&id=1ePP3S026zjsL8I_QwkJe-r5Z5i6OuLYO";
   /*   const Ilustracion = "https://drive.google.com/uc?export=view&id=1oK9d5mrzehw8e6d4dMHUgUFKqSeAnZoo";
@@ -60,7 +60,7 @@ export const Home = () => {
             />
           </div>
         </article>
-        <SpaceText/>
+        <SpaceText />
         <SwiperServices services={services} />
         <article
           className="container container__home-testimonios"
