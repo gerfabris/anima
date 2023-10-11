@@ -8,45 +8,33 @@ import "swiper/css/pagination";
 import "./SwiperPortfolio.css";
 // import required modules
 import { EffectCoverflow, Pagination , Autoplay , Navigation } from "swiper";
+/* hooks */
+import { useCachedImage, useImagePreloading } from "../../hooks/useCachedImage";
 
+/* component */
 export const SwiperPortfolio = ({ portfolio }) => {
- /* -- preload images */
-  useEffect(() => {
-    const imagesToPreload = portfolio.map((itemportfolio) => itemportfolio.image);
-
-    const preloadImages = () => {
-      imagesToPreload.forEach((imageUrl) => {
-        const image = new Image();
-        image.src = imageUrl;
-      });
-    };
-
-    preloadImages();
-
-  }, [portfolio]);
-  /* --- */
-      //Swiper Params
-      const swiperParams = {
-/*         autoplay: {
-            delay: 10000,
-            disableOnInteraction: true,
-        }, */
-        pagination: {
-            clickable: true,
-        },
-        navigation: true,
-        grabCursor: true,
-        centeredSlides: false,
-        loop: true,
+    //Swiper Params
+    const swiperParams = {
+      autoplay: {
+          delay: 10000,
+          disableOnInteraction: true,
+      },
+      pagination: {
+          clickable: true,
+      },
+      navigation: true,
+      grabCursor: true,
+      centeredSlides: false,
+      loop: true,
 /*         effect: "coverflow",
-        coverflowEffect: {
-          rotate: 50,
-          stretch: 0,
-          depth: 100,
-          modifier: 1,
-          slideShadows: true,
-        }, */
-        modules: [Autoplay, Pagination, Navigation, EffectCoverflow],
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      }, */
+      modules: [Autoplay, Pagination, Navigation, EffectCoverflow],
     };
     
     // Definir tus media queries (ajusta los valores según tus necesidades)
@@ -67,24 +55,37 @@ export const SwiperPortfolio = ({ portfolio }) => {
         swiperClasses += ' swiper-large';
         swiperParams.slidesPerView = 1;
     }
-    
+    /* -- preload images */
+    const imageToPreload = portfolio.map( (itemportfolio) => itemportfolio.image);
+    useImagePreloading(imageToPreload)
     // ---
   return (
     <Swiper
       {...swiperParams}
       className= {swiperClasses}
     >
-      {portfolio.map((itemportfolio) => (
-        <SwiperSlide className="cardportfolio" key={itemportfolio.id}>
-          <div className="cardporfolio-container-image">
-            <img
-              src={itemportfolio.image}
-              alt={itemportfolio.title}
-              className="cardportfolio-image"
-            />
-          </div>
-        </SwiperSlide>
-      ))}
+      {portfolio.map((itemportfolio) => {
+          const { isInCache, imageSrc } = useCachedImage(itemportfolio.image);
+
+          return (
+            <SwiperSlide className="cardportfolio" key={itemportfolio.id}>
+              <div className="cardporfolio-container-image">
+                {
+                  isInCache 
+                  ?
+                  <img
+                    src={imageSrc}
+                    alt={itemportfolio.title}
+                    className="cardportfolio-image"
+                  />
+                  :
+                  <p>Cargando...</p>
+                }
+              </div>
+            </SwiperSlide>
+          )
+        })
+      }
     </Swiper>
-  );
+  )    
 };
