@@ -216,27 +216,11 @@ export const dataPorfolio = [
     category: "logos",
   },
   {
-    id: 28,
-    title: "Endógena",
-    description: "",
-    image:
-      "https://drive.google.com/uc?export=view&id=1l56PeSR_SYLlz21et3UAj6V4AZ2WS99Z",
-    category: "logos",
-  },
-  {
-    id: 29,
-    title: "Out of the Box",
-    description: "",
-    image:
-      "https://drive.google.com/uc?export=view&id=1CruP79AmPEXimnUuO4KFN1hg7VF2jAl8",
-    category: "logos",
-  },
-  {
     id: 30,
     title: "",
     description: "",
     image:
-      "https://drive.google.com/uc?export=view&id=1AekBD5c93fxXRq2WIIrNscx6KtVYQZlE",
+      "https://drive.google.com/uc?export=view&id=1VXbvy8DuPbNptrPcJaErNWRldppYxVqs",
     category: "redes",
   },
   {
@@ -266,9 +250,9 @@ export const dataPorfolio = [
   {
     id: 34,
     title: "",
-    description:
+    description: "",
+    image:
       "https://drive.google.com/uc?export=view&id=1MDn7fOhQ-w7ULEMI8ERlMNssWCXaAT2z",
-    image: "",
     category: "otros",
   },
   {
@@ -280,35 +264,11 @@ export const dataPorfolio = [
     category: "otros",
   },
   {
-    id: 36,
-    title: "",
-    description: "",
-    image:
-      "https://drive.google.com/uc?export=view&id=13ebeD346J7riL3cFHZrttYoJDwx2oHEq",
-    category: "redes",
-  },
-  {
-    id: 37,
-    title: "",
-    description: "",
-    image:
-      "https://drive.google.com/uc?export=view&id=1VXbvy8DuPbNptrPcJaErNWRldppYxVqs",
-    category: "redes",
-  },
-  {
-    id: 38,
-    title: "",
-    description: "",
-    image:
-      "https://drive.google.com/uc?export=view&id=1IO2nO6eoytA7zqjf3PVsPWOfSf7ZF95G",
-    category: "redes",
-  },
-  {
     id: 39,
     title: "",
     description: "",
     image:
-      "ttps://drive.google.com/uc?export=view&id=1eWSDA1J_VJopkVTNol4q9LiBzEfQXKDb",
+      "https://drive.google.com/uc?export=view&id=1eWSDA1J_VJopkVTNol4q9LiBzEfQXKDb",
     category: "redes",
   },
   {
