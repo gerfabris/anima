@@ -1,7 +1,7 @@
 export const dataTestimonios = [
   {
     id: 1,
-    cliente: "Nicole - Muelería Serendipia",
+    cliente: "Nicole - Mueblería Serendipia",
     mensaje:
       "Muy linda experiencia, Cami una genia y muy amable. El material que nos entregó es super útil y claro. Sin dudas nos ayudo un montón a mejorar nuestras redes",
     servicioRealizado: "Asesoría de Instagram",
