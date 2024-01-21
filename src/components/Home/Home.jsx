@@ -7,14 +7,27 @@ import { SpaceText } from "../SpaceText/SpaceText";
 /* import Swiper Services */
 import { services } from "../../Data/DataServices";
 import { SwiperServices } from "../SwiperServices/SwiperServices";
+/* -- content -- */
+import ImgHome from "../../assets/img/home/Cami.png"
+import ImgHomeMobile from "../../assets/img/home/Cami-Mobile.png"
+
 /* -- -- */
 export const Home = () => {
   const ilustration = new Image();
   const ilustrationMobile = new Image();
+  // --- Google Drive Option
+  /* 
   ilustration.src =
     "https://drive.google.com/uc?export=view&id=1Vzqf4QQ46C5kwYsK2vgJR2A55tCUz1fG";
   ilustrationMobile.src =
     "https://drive.google.com/uc?export=view&id=1ePP3S026zjsL8I_QwkJe-r5Z5i6OuLYO";
+   */
+  // Hard option
+    ilustration.src = ImgHome;
+    ilustrationMobile.src = ImgHomeMobile;
+  /* -- Google Drive Option */
+  
+
   /*   const Ilustracion = "https://drive.google.com/uc?export=view&id=1oK9d5mrzehw8e6d4dMHUgUFKqSeAnZoo";
   const IlustracionMobile = "https://drive.google.com/uc?export=view&id=1ePP3S026zjsL8I_QwkJe-r5Z5i6OuLYO"; */
   const testimonios = dataTestimonios;
