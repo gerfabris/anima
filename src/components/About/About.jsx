@@ -1,17 +1,30 @@
+import ImgAbout1 from "../../assets/img/About/1.png";
+import ImgAbout2 from "../../assets/img/About/2.png";
+import ImgAbout3 from "../../assets/img/About/3.png";
+import ImgAbout4 from "../../assets/img/About/4.png";
+import ImgAbout5 from "../../assets/img/About/5.png";
+import ImgAbout6 from "../../assets/img/About/6.png";
+import ImgAbout7 from "../../assets/img/About/7.png";
+import ImgAboutIzquierda from "../../assets/img/About/izquierda.webp";
+import ImgAboutArribaDerecha from "../../assets/img/About/arribaderecha.webp";
+import ImgAboutAbajoDerecha from "../../assets/img/About/abajoderecha.webp";
+import ImgAboutConjunto from "../../assets/img/About/conjunto.webp";
+
+
 import "./About.css";
 
 export const About = () => {
-  const ImageAbout1 = "https://drive.google.com/uc?export=view&id=1dPPfGUaYwqwVncSfiE5LIvBl3Te0qVim";
-  const ImageAbout2 = "https://drive.google.com/uc?export=view&id=1HWSKJOzBK73uJlXJEXAeRpJnh8UvdG6N";
-  const ImageAbout3 = "https://drive.google.com/uc?export=view&id=1E4BtFkMXC1uCEVf9DWNO4mCe-LVGqfDQ";
-  const ImageAbout4 = "https://drive.google.com/uc?export=view&id=16lAqzCwT6WuMp6dGXw7x00GZRBypdinR";
-  const number1 = "https://drive.google.com/uc?export=view&id=1PPpAKYLLnC2JImLSdZQ-goCGn8ceTf-I"
-  const number2 = "https://drive.google.com/uc?export=view&id=1OjW-D1W3RJO6K-e9yEcjoyvg-Qwpizsk"
-  const number3 = "https://drive.google.com/uc?export=view&id=1zyESCm2YGKHhwVzhzn9WJxrHZvRBNysT"
-  const number4 = "https://drive.google.com/uc?export=view&id=1Jg_IcHIdZh2qEYxOvt0SwfeXjh4p4VD7"
-  const number5 = "https://drive.google.com/uc?export=view&id=1qgbcI6iADbeaiIJX3BIb8ifjb_Z6apzi"
-  const number6 = "https://drive.google.com/uc?export=view&id=1eY4IPQYqXcoakez4urlmgcUFIliJYmID"
-  const number7 = "https://drive.google.com/uc?export=view&id=1vU3eWNHCjHzG13KQSP2QLRvyXvS_ksHE"
+  const ImageAbout1 = ImgAboutIzquierda/* "https://drive.google.com/uc?export=view&id=1dPPfGUaYwqwVncSfiE5LIvBl3Te0qVim"; */
+  const ImageAbout2 = ImgAboutArribaDerecha/* "https://drive.google.com/uc?export=view&id=1HWSKJOzBK73uJlXJEXAeRpJnh8UvdG6N"; */
+  const ImageAbout3 = ImgAboutAbajoDerecha/* "https://drive.google.com/uc?export=view&id=1E4BtFkMXC1uCEVf9DWNO4mCe-LVGqfDQ"; */
+  const ImageAbout4 = ImgAboutConjunto/* "https://drive.google.com/uc?export=view&id=16lAqzCwT6WuMp6dGXw7x00GZRBypdinR"; */
+  const number1 = ImgAbout1/* "https://drive.google.com/uc?export=view&id=1PPpAKYLLnC2JImLSdZQ-goCGn8ceTf-I" */
+  const number2 = ImgAbout2/* "https://drive.google.com/uc?export=view&id=1OjW-D1W3RJO6K-e9yEcjoyvg-Qwpizsk" */
+  const number3 = ImgAbout3/* "https://drive.google.com/uc?export=view&id=1zyESCm2YGKHhwVzhzn9WJxrHZvRBNysT" */
+  const number4 = ImgAbout4/* "https://drive.google.com/uc?export=view&id=1Jg_IcHIdZh2qEYxOvt0SwfeXjh4p4VD7" */
+  const number5 = ImgAbout5/* "https://drive.google.com/uc?export=view&id=1qgbcI6iADbeaiIJX3BIb8ifjb_Z6apzi" */
+  const number6 = ImgAbout6/* "https://drive.google.com/uc?export=view&id=1eY4IPQYqXcoakez4urlmgcUFIliJYmID" */
+  const number7 = ImgAbout7/* "https://drive.google.com/uc?export=view&id=1vU3eWNHCjHzG13KQSP2QLRvyXvS_ksHE" */
   return (
     <section id="about">
       <div className="container-about">
