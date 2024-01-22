@@ -34,7 +34,7 @@ import ImgPortfolioRedes32 from "../assets/img/DataPortfolio/redes/32.webp";
 import ImgPortfolioRedes33 from "../assets/img/DataPortfolio/redes/33.webp";
 import ImgPortfolioRedes34 from "../assets/img/DataPortfolio/redes/34.webp";
 import ImgPortfolioRedes35 from "../assets/img/DataPortfolio/redes/35.webp";
-import ImgPortfolioRedes36 from "../assets/img/DataPortfolio/redes/35.webp";
+import ImgPortfolioRedes36 from "../assets/img/DataPortfolio/redes/36.webp";
 import ImgPortfolioRedes37 from "../assets/img/DataPortfolio/redes/37.webp";
 /* -- Component  -- */
 export const dataPorfolio = [
